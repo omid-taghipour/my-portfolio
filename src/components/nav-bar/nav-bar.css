@@ -1,0 +1,129 @@
+.nav-bar-main {
+    @apply
+    sticky
+    top-0
+    bg-theme-black
+    z-50
+    mx-auto
+    px-4
+    sm:px-6
+    lg:px-8;
+}
+
+.nav-bar-container {
+    @apply
+    flex
+    items-center
+    justify-between
+    h-28;
+}
+
+.nav-bar-logo {
+    @apply
+    flex
+    items-center
+    w-40
+    hover:w-44
+    duration-150;
+}
+
+.nav-bar-links-container {
+    @apply
+    hidden
+    md:block;
+}
+
+.nav-bar-links {
+    @apply
+    ml-10
+    flex
+    items-baseline
+    space-x-4;
+}
+
+.nav-bar-links a {
+    @apply
+    text-white
+    font-headerLinks
+    px-5
+    py-2
+    rounded-md
+    text-2xl
+    capitalize
+    hover:text-theme-mid-green
+    hover:underline
+    hover:text-[27px]
+    transition-all
+    duration-150;
+}
+
+.responsive-nav-links {
+    @apply
+    text-center
+    font-headerLinks
+    w-screen
+    capitalize
+    text-white
+    hover:bg-theme-dark-green
+    hover:text-white
+    hover:rounded-none
+    block
+    px-3
+    py-2
+    rounded-md
+    text-2xl
+    duration-300
+}
+
+.normal-nav-links {
+    @apply
+    inline-flex
+    items-center
+    justify-center p-2
+    rounded-md
+    text-gray-light
+    hover:text-white
+    hover:bg-gray-dark
+    focus:outline-none
+    focus:ring-2
+    focus:ring-offset-2
+    focus:ring-offset-gray-light
+    focus:ring-white
+}
+
+.hamburger-menu {
+    @apply
+    -mr-2
+    flex
+    md:hidden
+    bg-white;
+}
+
+.mobile-nav-links-container {
+    @apply
+    md:hidden
+    opacity-90
+    fixed
+    top-28
+    left-0
+    w-screen
+    h-screen
+    bg-black
+    flex
+    items-center
+    justify-center
+    flex-col
+    z-50;
+}
+
+.mobile-nav-links {
+    @apply
+    pt-2
+    pb-3
+    flex
+    flex-col
+    items-center
+    space-y-1
+    sm:px-3
+    ssm:flex-auto;
+}
