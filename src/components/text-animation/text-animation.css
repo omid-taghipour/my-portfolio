@@ -1,0 +1,9 @@
+.title-text{
+    @apply
+    text-pink-600
+    text-6xl
+    text-center
+    pb-9
+    font-sectionTitles
+    drop-shadow-2xl
+}

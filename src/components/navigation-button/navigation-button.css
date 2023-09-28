@@ -10,6 +10,7 @@
         capitalize
     hover:bg-pink-600
     hover:border-pink-600
+    w-[12rem]
 }
 
 .nav-arrow {

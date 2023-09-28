@@ -1,0 +1,9 @@
+.education-items-container {
+    @apply
+    flex
+    ssm:flex-col
+    md:flex-row
+    justify-center
+    md:mx-40
+    
+}

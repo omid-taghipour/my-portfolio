@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-    @apply
-    bg-theme-black
+    @apply bg-theme-black
+}
 
+html {
+    scroll-behavior: smooth;
 }

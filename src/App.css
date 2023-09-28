@@ -1,0 +1,6 @@
+.section-divider-line{
+    @apply
+    bg-theme-black
+    border-none
+    mb-40
+}

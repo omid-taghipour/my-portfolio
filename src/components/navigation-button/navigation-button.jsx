@@ -1,12 +1,13 @@
 import {HiArrowNarrowRight} from "react-icons/hi";
 import './navigation-button.css'
-const NavigationButton = ({title}) => {
+
+const NavigationButton = ({title, href}) => {
   return (
       <div>
-          <button className={'nav-button group'}>
+          <a className={'nav-button group'} href={href}>
               {title}
               <span className={'group-hover:rotate-90 duration-300'}><HiArrowNarrowRight className={'nav-arrow'}/></span>
-          </button>
+          </a>
       </div>
   );
 }

@@ -11,6 +11,7 @@ module.exports = {
 
         fontFamily: {
             headerLinks: ['M PLUS 1p', 'sans-serif'],
+            sectionTitles: ['Bebas Neue', 'sans-serif']
         },
         extend: {
             colors: {

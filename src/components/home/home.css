@@ -13,7 +13,7 @@
 .welcome-container h6 {
     @apply
     text-pink-600
-    text-lg
+    lg:text-2xl
 }
 
 .welcome-container h1 {
@@ -27,12 +27,15 @@
 
 .welcome-container h2 {
     @apply
-    text-xl ssm:text-xl font-bold text-[#8892b0]
+    lg:text-4xl 
+    ssm:text-xl 
+    font-bold 
+    text-[#8892b0]
 }
 
 .welcome-container h3 {
     @apply
-    text-4xl
+    lg:text-4xl
     sm:text-7xl
     font-bold
     text-[#8892b0]
@@ -44,4 +47,5 @@
     py-4
     max-w-[700px]
     text-justify
+    lg:text-xl
 }

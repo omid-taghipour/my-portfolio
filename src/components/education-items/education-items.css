@@ -1,0 +1,74 @@
+.education-item {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05) inset, 0px 0px 8px rgba(82, 168, 236, 0.6);
+    @apply
+    flex
+    flex-col
+    text-white
+    m-5
+    text-center
+    justify-center
+    p-3
+    h-screen
+}
+.education-item:hover {
+    background: linear-gradient(90deg, rgba(11,47,70,1) 0%, rgba(52,75,96,1) 40%, rgba(40,30,101,1) 100%);
+    transition: 3s all;
+}
+
+.education-item img {
+    @apply
+    object-cover
+    rounded-lg
+    lg:h-[40rem]
+    md:px-20
+    md:pb-0
+    ssm:p-10
+}
+
+.education-item h3 {
+    @apply
+    lg:text-4xl
+    md:text-3xl
+    text-theme-mid-green
+    font-bold
+    mt-5
+    ssm:text-xl
+}
+
+.education-item p {
+    @apply
+    lg:text-3xl
+    md:text-2xl
+    text-theme-light-green
+    font-bold
+    mt-5
+    ssm:text-lg
+}
+
+.education-item pre{
+    @apply
+    lg:text-2xl
+    md:text-xl
+    text-gray-400
+    font-bold
+    mt-5
+    ssm:text-lg
+}
+
+.education-item a {
+    @apply
+    lg:text-2xl
+    md:text-xl
+    text-pink-600
+    border-2
+    border-pink-600
+    rounded-full
+    px-5    
+    py-2
+    hover:bg-pink-600
+    hover:text-white
+    transition-all
+    duration-300
+    whitespace-nowrap
+    ssm:text-lg
+}

@@ -50,9 +50,9 @@
     rounded-md
     text-2xl
     capitalize
-    hover:text-theme-mid-green
-    hover:underline
+    hover:text-pink-600
     hover:text-[27px]
+    hover:font-bold
     transition-all
     duration-150;
 }

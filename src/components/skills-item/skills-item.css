@@ -1,0 +1,34 @@
+ .skills-item {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05) inset, 0px 0px 8px rgba(82, 168, 236, 0.6);
+    @apply
+    flex
+    flex-col
+    items-center
+    justify-center
+    p-4
+    capitalize
+    text-center
+    m-4
+    text-2xl
+    ssm:text-lg
+  }
+  
+  .skills-item:hover {
+    background: linear-gradient(162deg, rgba(10,55,77,1) 0%, rgba(52,66,96,1) 40%, rgba(54,30,101,1) 100%);
+    @apply
+    cursor-pointer
+  }
+  .skills-logo-container {
+    @apply
+    flex flex-1
+    justify-center
+    items-center
+  }
+  
+  .skills-name-container {
+    @apply
+    flex flex-1
+    justify-center
+    items-center
+  }
+  
