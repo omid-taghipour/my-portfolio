@@ -1,5 +1,5 @@
 .contact-form-container {
-  @apply h-screen
+  @apply h-full
     text-theme-bright2-white
     w-screen;
 }

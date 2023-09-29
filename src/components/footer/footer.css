@@ -1,9 +1,10 @@
 .footer-container{
-    @apply 
+    @apply
+    block 
     text-theme-bright2-white
     text-center
     text-xl
     mt-20
     mb-5
-    
+    ssm:mx-5
 }
