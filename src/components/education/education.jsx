@@ -13,7 +13,7 @@ function Education() {
                     logo={EMU}
                     altText={"Eastern Mediterranean University"}
                     title={"Eastern Mediterranean University"}
-                    desc={'Bachelor of Science in Information Technology'}
+                    desc={'B.S. in  Information Technology'}
                     time={'Feb 2018 - Jul 2021'}
                     href={'https://www.emu.edu.tr/en/programs/information-technology-undergraduate-program/925'}
                 />
@@ -22,7 +22,7 @@ function Education() {
                     logo={Kiel}
                     altText={"Kiel University of Applied Sciences"}
                     title={"Kiel University of Applied Sciences"}
-                    desc={'Master of Science in Data Science'}
+                    desc={'M.S. in Data Science'}
                     time={'Sep 2022 - Present'}
                     href={'https://www.fh-kiel.de/en/degree-courses/courses/data-science/'}
                 />

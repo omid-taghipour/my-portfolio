@@ -7,23 +7,28 @@
     m-5
     text-center
     justify-center
-    p-3
-    h-screen
+    items-center
+    md:px-32
+    sm:px-8
+    ssm:h-full
+    md:h-screen
 }
 .education-item:hover {
-    background: linear-gradient(90deg, rgba(11,47,70,1) 0%, rgba(52,75,96,1) 40%, rgba(40,30,101,1) 100%);
-    transition: 3s all;
+    background: linear-gradient(162deg, rgba(26,30,86,1) 0%, rgba(55,23,88,1) 40%, rgba(63,40,126,1) 68%, rgba(26,87,134,1) 100%);
 }
 
 .education-item img {
     @apply
-    block
-    object-cover
-    rounded-lg
-    lg:h-[38rem]
-    md:h-[30rem]
-    md:pb-0
-    ssm:p-10
+    ssm:h-[8rem]
+    ssm:w-[8rem]
+    sm:h-[11rem]
+    sm:w-[11rem]
+    md:h-[22rem]
+    md:w-[22rem]
+    lg:h-[26rem]
+    lg:w-[26rem]
+    rounded-full
+    text-center
 }
 
 .education-item h3 {

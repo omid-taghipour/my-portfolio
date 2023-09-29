@@ -2,17 +2,15 @@
   @apply h-screen
     text-theme-bright2-white
     w-screen;
-
 }
 
 .contact-form-container h2 {
-    @apply
-    md:text-2xl
+  @apply md:text-2xl
     ssm:text-lg
     text-theme-bright2-white
     font-semibold
     text-justify
-    ssm:px-5
+    ssm:px-5;
 }
 
 .contact-form {
@@ -23,7 +21,7 @@
     items-center
     w-full
     text-center
-    my-10
+    my-10;
 }
 
 .contact-form input {
@@ -70,8 +68,7 @@
 }
 
 .contact-form button {
-    @apply
-    border
+  @apply border
      border-pink-600
       hover:bg-pink-600 
       hover:text-white
@@ -85,14 +82,11 @@
       sm:w-auto 
       px-5 py-4 
       transition-all
-      duration-300
+      duration-300;
 }
 
-
-
 .social-media-container {
-    @apply 
-    flex
+  @apply flex
     flex-col
     justify-center
     items-center
@@ -101,45 +95,45 @@
     text-2xl
     text-theme-bright2-white
     font-semibold
-    text-justify
+    text-justify;
 }
 
 .social-media-items {
-    @apply
-    flex
+  @apply flex
     flex-wrap
     justify-center
     items-center
     gap-10
     text-center
-    p-10
+    p-10;
 }
 
 .social-media-items a {
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05) inset,
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05) inset,
     0px 0px 8px rgba(82, 168, 236, 0.6);
-    @apply 
-    p-7
-    ssm:text-lg
+  @apply p-7
+    ssm:text-lg;
 }
 
-.social-media-items a:hover{
-    background: linear-gradient(162deg, rgba(42,98,45,1) 0%, rgba(31,90,101,1) 40%, rgba(18,23,121,1) 100%);
+.social-media-items a:hover {
+  background: linear-gradient(
+    162deg,
+    rgba(42, 98, 45, 1) 0%,
+    rgba(31, 90, 101, 1) 40%,
+    rgba(18, 23, 121, 1) 100%
+  );
 }
 
-.social-media-icon{
-    @apply
-    md:text-9xl
+.social-media-icon {
+  @apply md:text-9xl
     ssm:text-7xl
     text-theme-bright2-white
-    mb-3
+    mb-3;
 }
 
 .divider-line {
-    @apply
-    w-1/2
+  @apply w-1/2
     h-1
     bg-theme-bright2-white
-    m-auto
-    
+    m-auto;
 }
