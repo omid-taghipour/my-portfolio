@@ -22,6 +22,8 @@ module.exports = {
                 "theme-dark-green": "#183D3D",
                 "theme-mid-green": "#5C8374",
                 "theme-light-green": "#93B1A6",
+                "theme-bright2-white": "#ccd6f6",
+                "theme-bright1-white": "#8892b0",
             },
             spacing: {
                 128: "32rem",

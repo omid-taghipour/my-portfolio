@@ -17,10 +17,11 @@
 
 .education-item img {
     @apply
+    block
     object-cover
     rounded-lg
-    lg:h-[40rem]
-    md:px-20
+    lg:h-[38rem]
+    md:h-[30rem]
     md:pb-0
     ssm:p-10
 }
@@ -29,7 +30,7 @@
     @apply
     lg:text-4xl
     md:text-3xl
-    text-theme-mid-green
+    text-theme-bright2-white
     font-bold
     mt-5
     ssm:text-xl
@@ -39,7 +40,7 @@
     @apply
     lg:text-3xl
     md:text-2xl
-    text-theme-light-green
+    text-theme-bright1-white
     font-bold
     mt-5
     ssm:text-lg

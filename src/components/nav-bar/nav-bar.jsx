@@ -6,11 +6,11 @@ import {FaBars, FaTimes,} from "react-icons/fa"
 function NavBarComponent() {
     const headerItems = [
         {id: 1, name: "about me", href: "#about-me"},
-        {id: 3, name: "education", href: "#education"},
-        {id: 4, name: "skills", href: "#skills"},
-        {id: 2, name: "projects", href: "#projects"},
-        {id: 5, name: "languages", href: "#languages"},
-        {id: 6, name: "contact", href: "#contact"}
+        {id: 2, name: "education", href: "#education"},
+        {id: 3, name: "skills", href: "#skills"},
+        // {id: 2, name: "projects", href: "#projects"},
+        // {id: 5, name: "languages", href: "#languages"},
+        {id: 4, name: "contact", href: "#contact"}
     ]
     const [open, setOpen] = useState(false);
     const handleMenu = () => {

@@ -5,6 +5,7 @@ import AboutMe from "./components/about-me/about-me";
 import Divider from "./components/divider/divider";
 import Education from "./components/education/education";
 import Skills from "./components/skills/skills";
+import Contact from "./components/contact/contact";
 
 function App() {
   return (
@@ -18,6 +19,10 @@ function App() {
       <Education />
       <Divider id="skills" />
       <Skills />
+      <Divider id="contact" />
+      <Contact />
+      {/* <Projects /> */}
+
     </div>
   );
 }

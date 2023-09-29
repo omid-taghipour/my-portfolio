@@ -33,7 +33,7 @@ function Skills() {
         { id: 5, name: "laravel", logo: <SiLaravel className="skill-logo" /> },
         { id: 6, name: "mongoDB", logo: <SiMongodb className="skill-logo" /> },
         { id: 7, name: "react JS", logo: <GrReactjs className="skill-logo" /> },
-        { id: 8, name: "Tailwind CSS", logo: <SiTailwindcss className="skill-logo" /> },
+        { id: 8, name: "Tailwindcss", logo: <SiTailwindcss className="skill-logo" /> },
         { id: 9, name: "java", logo: <FaJava className="skill-logo" /> },
         { id: 10, name: "git", logo: <BsGit className="skill-logo" /> },
         { id: 11, name: "Jupyter", logo: <SiJupyter className="skill-logo" /> },
@@ -41,27 +41,25 @@ function Skills() {
         { id: 13, name: "pandas", logo: <SiPandas className="skill-logo" /> },
         { id: 14, name: "plotly", logo: <SiPlotly className="skill-logo" /> },
         { id: 15, name: "pyTorch", logo: <SiPytorch className="skill-logo" /> },
-        { id: 16, name: "tensor flow", logo: <SiTensorflow className="skill-logo" /> },
+        { id: 16, name: "tensorFlow", logo: <SiTensorflow className="skill-logo" /> },
         { id: 17, name: "power BI", logo: <SiPowerbi className="skill-logo" /> },
-        { id: 18, name: "power shell", logo: <SiPowershell className="skill-logo" /> },
+        { id: 18, name: "powerShell", logo: <SiPowershell className="skill-logo" /> },
         { id: 19, name: "ubuntu", logo: <FaUbuntu className="skill-logo" /> },
         { id: 20, name: "AWS", logo: <BiLogoAws className="skill-logo" /> },
     ]
 
     return (
-        <div className='skills-container text-white'>
+        <div className='skills-container'>
             <TextAnimation tagName={'h1'} text={'Skills'} typingSpeed={100} classAtt={"title-text"} />
-            <div className='skills-items-container'>
                 <div className='skills-items'>
                     {
                         skills.map(
                             (skill) => {
-                                return <SkillsItem id={skill.id} name={skill.name} logo={skill.logo} />
+                                return <SkillsItem key={skill.id} id={skill.id} name={skill.name} logo={skill.logo} />
                             }
                         )
                     }
                 </div>
-            </div>
         </div>
     )
 }

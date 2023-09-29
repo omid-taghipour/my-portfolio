@@ -12,12 +12,11 @@
     ssm:p-8
     md:flex
     md:flex-row
-    lg:m-32
+    lg:m-[10%]
 }
 
 .about-me-content img {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05) inset, 0px 0px 8px rgba(82, 168, 236, 0.6);
-
     @apply
     rounded-full
     md:w-[40rem]
@@ -28,9 +27,9 @@
 
 .about-me-content p {
     @apply
-    text-theme-light-green
+    text-theme-bright1-white
     text-justify
-    text-2xl
+    md:text-2xl
     ssm:text-lg
     ssm:mb-10
     md:mb-0

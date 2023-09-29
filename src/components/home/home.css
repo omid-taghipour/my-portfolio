@@ -21,7 +21,7 @@
     text-5xl
     sm:text-7xl
     font-bold
-    text-[#ccd6f6]
+    text-theme-bright2-white
     pb-5
 }
 
@@ -30,7 +30,7 @@
     lg:text-4xl 
     ssm:text-xl 
     font-bold 
-    text-[#8892b0]
+    text-theme-bright1-white
 }
 
 .welcome-container h3 {
@@ -38,14 +38,14 @@
     lg:text-4xl
     sm:text-7xl
     font-bold
-    text-[#8892b0]
+    text-theme-bright1-white
 }
 
 .welcome-container p {
     @apply
-    text-[#8892b0]
+    text-theme-bright1-white
     py-4
     max-w-[700px]
     text-justify
-    lg:text-xl
+    lg:text-2xl
 }

@@ -1,3 +1,11 @@
+.skills-container {
+    @apply
+    text-theme-bright2-white
+        md:h-screen
+        grid
+        justify-center
+}
+
 .skill-logo {
     @apply
     lg:w-40
