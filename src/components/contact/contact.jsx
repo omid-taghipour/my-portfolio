@@ -31,7 +31,7 @@ const Contact = () => {
                 <h2>Or you can send me a message through the following form</h2>
                 <input type="text" name="name" className="contact-name" placeholder='Your Name' required/>
                 <input type="email" name="email" className="contact-email" placeholder='Your Email' required/>
-                <textarea name="message" className="contact-message" rows="10" placeholder='Your message' required></textarea>
+                <textarea name="message" className="contact-message" rows="10" placeholder='Your Message' required></textarea>
                 <button type='submit'>Send the message!</button>
             </form>
         </div>

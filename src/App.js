@@ -6,6 +6,7 @@ import Divider from "./components/divider/divider";
 import Education from "./components/education/education";
 import Skills from "./components/skills/skills";
 import Contact from "./components/contact/contact";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
       <Divider id="contact" />
       <Contact />
       {/* <Projects /> */}
-
+      <Footer />
     </div>
   );
 }
