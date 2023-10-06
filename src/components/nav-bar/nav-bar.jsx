@@ -5,6 +5,7 @@ import {FaBars, FaTimes,} from "react-icons/fa"
 
 function NavBarComponent() {
     const headerItems = [
+        {id: 0, name: "home", href: "#home"},
         {id: 1, name: "about me", href: "#about-me"},
         {id: 2, name: "education", href: "#education"},
         {id: 3, name: "skills", href: "#skills"},

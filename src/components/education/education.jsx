@@ -8,7 +8,6 @@ function Education() {
     const educations = [
         {id:1,logo:EMU, name:"B.S. in  Information Technology", uni: "Eastern Mediterranean University", duration:"Feb 2018 - Jul 2021", link:"https://www.emu.edu.tr/en/programs/information-technology-undergraduate-program/925"},
         {id:2,logo:Kiel, name:"M.S. in Data Science", uni: "Kiel University of Applied Science", duration:"Sep 2022 - Present", link:"https://www.fh-kiel.de/en/degree-courses/courses/data-science/"},
-
     ]
 
     return (
