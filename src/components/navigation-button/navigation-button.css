@@ -1,6 +1,5 @@
 .nav-button {
-    @apply
-    text-white
+  @apply text-white
     border-2
     px-6
     py-3
@@ -10,10 +9,9 @@
         capitalize
     hover:bg-pink-600
     hover:border-pink-600
-    w-[12rem]
+    w-[12rem];
 }
 
 .nav-arrow {
-    @apply
-    ml-3
+  @apply ml-3;
 }

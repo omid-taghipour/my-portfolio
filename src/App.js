@@ -8,7 +8,10 @@ import Skills from "./components/skills/skills";
 import Contact from "./components/contact/contact";
 import Footer from "./components/footer/footer";
 
+
 function App() {
+  const APP_VERSION  = "1.1";
+
   return (
     <div className="App" id="home">
       
@@ -23,7 +26,7 @@ function App() {
       <Divider id="contact" />
       <Contact />
       {/* <Projects /> */}
-      <Footer />
+      <Footer version={APP_VERSION} />
     </div>
   );
 }

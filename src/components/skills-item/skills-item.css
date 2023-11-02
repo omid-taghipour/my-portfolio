@@ -9,7 +9,13 @@
    text-2xl 
    ssm:text-lg;
 }
-
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 .skills-item:hover {
   background: linear-gradient(
     162deg,

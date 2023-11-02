@@ -10,7 +10,7 @@ const Contact = () => {
         <div className='contact-form-container'>
             <TextAnimation tagName={'h1'} text={'Contact'} typingSpeed={100} classAtt={"title-text"} />
             <div className="social-media-container">
-                <h2>You can get in touch with me through the following platforms</h2>
+                <h2>Feel free to get in touch with me through the following platforms</h2>
                 <div className='social-media-items'>
                     <a href='https://cy.linkedin.com/in/omid-taghipour-77053a1b0' target='_blank' rel='noreferrer'>
                         <BsLinkedin className='social-media-icon' />

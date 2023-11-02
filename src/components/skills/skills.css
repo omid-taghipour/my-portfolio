@@ -1,14 +1,12 @@
 .skills-container {
-    @apply
-    text-theme-bright2-white
+  @apply text-theme-bright2-white
         md:h-screen
         grid
-        justify-center
+        justify-center;
 }
 
 .skill-logo {
-    @apply
-    lg:w-40
+  @apply lg:w-40
     h-auto
     m-0
     block
@@ -18,14 +16,13 @@
     transition-all
     duration-300 
     ease-out
-    ssm:w-20
+    ssm:w-20;
 }
 
 .skills-items {
-    @apply 
-    flex 
+  @apply flex 
     flex-wrap 
     mx-32
     justify-center
-    ssm:mx-8
+    ssm:mx-8;
 }

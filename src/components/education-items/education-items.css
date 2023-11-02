@@ -8,11 +8,11 @@
     text-center
     justify-center
     items-center
-    md:px-32
     ssm:px-3
     ssm:h-full
-    md:h-screen
+    md:h-[60rem]
 }
+
 .education-item:hover {
     background: linear-gradient(162deg, rgba(26,30,86,1) 0%, rgba(55,23,88,1) 40%, rgba(63,40,126,1) 68%, rgba(26,87,134,1) 100%);
 }

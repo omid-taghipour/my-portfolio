@@ -64,9 +64,9 @@
     w-screen
     capitalize
     text-white
-    hover:bg-theme-dark-green
-    hover:text-white
+    hover:text-pink-600
     hover:rounded-none
+    hover:font-bold
     block
     px-3
     py-2
@@ -83,7 +83,6 @@
     rounded-md
     text-gray-light
     hover:text-white
-    hover:bg-gray-dark
     focus:outline-none
     focus:ring-2
     focus:ring-offset-2
