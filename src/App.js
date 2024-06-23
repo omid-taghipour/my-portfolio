@@ -10,7 +10,7 @@ import Footer from "./components/footer/footer";
 
 
 function App() {
-  const APP_VERSION  = "1.1";
+  const APP_VERSION  = "1.2";
 
   return (
     <div className="App" id="home">
