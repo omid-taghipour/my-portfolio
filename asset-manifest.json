@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.ed1b399a.css",
-    "main.js": "/static/js/main.7bcac20a.js",
+    "main.js": "/static/js/main.ae9fc388.js",
     "static/media/me-circle.png": "/static/media/me-circle.d33e89f41208efb94c7e.png",
     "static/media/logo.png": "/static/media/logo.de975e553d836850bf9d.png",
     "static/media/EMU.webp": "/static/media/EMU.b5bbea54716b6e4f0881.webp",
     "static/media/FH-Kiel.jpg": "/static/media/FH-Kiel.bc630ad68b62625a5bf4.jpg",
     "index.html": "/index.html",
     "main.ed1b399a.css.map": "/static/css/main.ed1b399a.css.map",
-    "main.7bcac20a.js.map": "/static/js/main.7bcac20a.js.map"
+    "main.ae9fc388.js.map": "/static/js/main.ae9fc388.js.map"
   },
   "entrypoints": [
     "static/css/main.ed1b399a.css",
-    "static/js/main.7bcac20a.js"
+    "static/js/main.ae9fc388.js"
   ]
 }
