@@ -5,14 +5,18 @@ const Home = () => {
     return (
         <div className={'welcome-container'}>
             <h6>Hey there! I'm </h6>
+            
             <h1>Omid Taghipour</h1>
-            <h2>I am a Full Stack Developer, and Data Science student</h2>
-            <p>I'm all about Development and Data Science, and this is where I get to show off the cool stuff I've been working
-                on. Dive into my projects, skills, and journey through the tech world. Let's dive in and explore
-                together! 💻🔍✨
+            
+            <h2>I am focused on DevOps</h2>
+            
+            <p>
+            passionate about revolutionizing development operations. 
+            Welcome to my portfolio, where I share my skills and experiences in the tech world. 
+            Let's dive in and explore together! 💻🔍✨
             </p>
-            <NavigationButton title={'read about me'} href={'#about-me'}/>
 
+            <NavigationButton title={'read about me'} href={'#about-me'}/>
         </div>
     );
 }
