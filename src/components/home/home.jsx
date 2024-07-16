@@ -8,7 +8,7 @@ const Home = () => {
             
             <h1>Omid Taghipour</h1>
             
-            <h2>I am focused on DevOps</h2>
+            <h2>I am a tech enthusiast</h2>
             
             <p>
             passionate about revolutionizing development operations. 
