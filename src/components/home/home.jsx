@@ -1,5 +1,6 @@
 import './home.css'
 import NavigationButton from "../navigation-button/navigation-button";
+import { HiOutlineDownload } from "react-icons/hi";
 
 const Home = () => {
     return (
@@ -16,7 +17,15 @@ const Home = () => {
             Let's dive in and explore together! 💻🔍✨
             </p>
 
-            <NavigationButton title={'read about me'} href={'#about-me'}/>
+            <div className="home-action-buttons">
+                <NavigationButton title={'read about me'} href={'#about-me'}/>
+                <a href={process.env.PUBLIC_URL + '/Omid_Taghipour_Resume_EN.pdf'} target="_blank" rel="noreferrer" className="nav-button group" aria-label="View Resume">
+                    View Resume
+                    <span className="group-hover:translate-x-1 duration-300">
+                        <HiOutlineDownload className="nav-arrow" size={20} />
+                    </span>
+                </a>
+            </div>
         </div>
     );
 }
