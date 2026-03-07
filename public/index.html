@@ -37,6 +37,13 @@
 
       gtag("config", "G-BZMCJWTCZV");
     </script>
+    <script>
+      if (localStorage.getItem('theme') === 'light') {
+        document.documentElement.classList.remove('dark');
+      } else {
+        document.documentElement.classList.add('dark');
+      }
+    </script>
   </head>
 
   <body>

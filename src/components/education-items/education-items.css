@@ -1,17 +1,17 @@
 .education-item {
-    @apply bg-zinc-900/40 border border-zinc-800 backdrop-blur-md rounded-3xl shadow-xl flex flex-col text-zinc-100 p-10 text-center justify-center items-center hover:-translate-y-2 hover:shadow-[0_0_30px_rgba(34,211,238,0.15)] transition-all duration-300 h-full;
+    @apply bg-white/50 dark:bg-zinc-900/40 border border-zinc-200/50 dark:border-zinc-800 backdrop-blur-md rounded-3xl shadow-xl flex flex-col text-zinc-900 dark:text-zinc-100 p-10 text-center justify-center items-center hover:-translate-y-2 hover:shadow-[0_0_30px_rgba(34,211,238,0.25)] transition-all duration-300 h-full;
 }
 
 .education-item img {
-    @apply w-32 h-32 md:w-48 md:h-48 rounded-full border-4 border-zinc-800 object-cover mb-8;
+    @apply w-32 h-32 md:w-48 md:h-48 rounded-full border-4 border-zinc-200 dark:border-zinc-800 object-cover mb-8;
 }
 
 .education-item h3 {
-    @apply lg:text-3xl md:text-2xl text-zinc-100 font-bold mb-3 ssm:text-xl;
+    @apply lg:text-3xl md:text-2xl text-zinc-800 dark:text-zinc-100 font-bold mb-3 ssm:text-xl;
 }
 
 .education-item p {
-    @apply lg:text-xl md:text-lg text-cyan-400 font-semibold mb-3 ssm:text-base;
+    @apply lg:text-xl md:text-lg text-cyan-600 dark:text-cyan-400 font-semibold mb-3 ssm:text-base;
 }
 
 .education-item span {
@@ -19,5 +19,5 @@
 }
 
 .education-item a {
-    @apply inline-block mt-auto text-zinc-300 border border-zinc-700 bg-zinc-800/50 rounded-full px-6 py-3 hover:bg-cyan-500 hover:text-zinc-950 hover:border-cyan-400 transition-all duration-300 font-semibold text-lg;
+    @apply inline-block mt-auto text-zinc-700 dark:text-zinc-300 border border-zinc-300 dark:border-zinc-700 bg-white/50 dark:bg-zinc-800/50 rounded-full px-6 py-3 hover:bg-cyan-500 hover:text-white dark:hover:text-zinc-950 hover:border-cyan-400 transition-all duration-300 font-semibold text-lg;
 }

@@ -1,7 +1,8 @@
 import './nav-bar.css'
 import logo from '../../assets/images/logo.png'
-import {useState} from "react";
-import {FaBars, FaTimes,} from "react-icons/fa"
+import { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
+import ThemeToggle from '../theme-toggle/theme-toggle';
 
 const headerItems = [
     {id: 0, name: "home", href: "#home"},
@@ -38,13 +39,17 @@ function NavBarComponent() {
                                 })
                             }
                         </div>
+                        <div className="hidden md:flex items-center">
+                            <ThemeToggle />
+                        </div>
                     </div>
                     {/*  Hamburger menu  */}
-                    <div className="hamburger-menu">
+                    <div className="hamburger-menu flex items-center md:hidden">
+                        <ThemeToggle />
                         <button
                             type="button"
                             onClick={handleMenu}
-                            className="normal-nav-links">
+                            className="normal-nav-links ml-4">
 
                             <span className="sr-only">Open Main Menu</span>
                             {open === true ? <FaTimes/> : <FaBars/>}

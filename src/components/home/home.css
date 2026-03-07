@@ -11,9 +11,9 @@
 }
 
 .welcome-container h2 {
-    @apply lg:text-4xl ssm:text-2xl font-bold text-zinc-300 mb-6;
+    @apply lg:text-4xl ssm:text-2xl font-bold text-zinc-700 dark:text-zinc-300 mb-6;
 }
 
 .welcome-container p {
-    @apply text-zinc-400 py-4 max-w-[700px] text-justify lg:text-xl leading-relaxed;
+    @apply text-zinc-500 dark:text-zinc-400 py-4 max-w-[700px] text-justify lg:text-xl leading-relaxed;
 }

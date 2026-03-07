@@ -1,11 +1,11 @@
 .skills-container {
-    @apply text-zinc-100 min-h-[100dvh] py-20 flex flex-col items-center justify-center snap-start;
+    @apply text-zinc-900 dark:text-zinc-100 min-h-[100dvh] py-20 flex flex-col items-center justify-center snap-start;
 }
 
 .skill-logo {
-    @apply w-16 h-16 m-0 block text-center bg-transparent text-zinc-400 transition-all duration-300 ease-out ssm:w-12 ssm:h-12;
+    @apply w-16 h-16 m-0 block text-center bg-transparent text-zinc-600 dark:text-zinc-400 transition-all duration-300 ease-out ssm:w-12 ssm:h-12;
 }
 
 .skills-items {
-    @apply flex flex-wrap max-w-6xl justify-center gap-6 p-10 bg-zinc-900/40 border border-zinc-800 backdrop-blur-md rounded-3xl shadow-2xl mx-4;
+    @apply flex flex-wrap max-w-6xl justify-center gap-6 p-10 bg-white/50 dark:bg-zinc-900/40 border border-zinc-200/50 dark:border-zinc-800 backdrop-blur-md rounded-3xl shadow-2xl mx-4;
 }

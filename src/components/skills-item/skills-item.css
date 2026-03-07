@@ -3,11 +3,11 @@
 }
 
 .skills-item-box {
-    @apply bg-zinc-800/40 border border-zinc-700 rounded-2xl p-6 w-32 h-32 flex justify-center items-center transition-all duration-300 shadow-lg text-zinc-300 ssm:w-24 ssm:h-24 ssm:p-3;
+    @apply bg-zinc-200/50 dark:bg-zinc-800/40 border border-zinc-300 dark:border-zinc-700 rounded-2xl p-6 w-32 h-32 flex justify-center items-center transition-all duration-300 shadow-lg text-zinc-700 dark:text-zinc-300 ssm:w-24 ssm:h-24 ssm:p-3;
 }
 
 .skills-item-wrapper:hover .skills-item-box {
-    @apply -translate-y-2 border-cyan-500 shadow-[0_0_25px_rgba(34,211,238,0.2)] bg-zinc-800/80;
+    @apply -translate-y-2 border-cyan-400 dark:border-cyan-500 shadow-[0_0_25px_rgba(34,211,238,0.3)] dark:shadow-[0_0_25px_rgba(34,211,238,0.2)] bg-white/80 dark:bg-zinc-800/80;
 }
 
 .skills-logo-container {
@@ -15,13 +15,13 @@
 }
 
 .skills-item-wrapper:hover .skills-logo-container {
-    @apply scale-110 text-cyan-400;
+    @apply scale-110 text-cyan-600 dark:text-cyan-400;
 }
 
 .skills-name-container {
-    @apply mt-4 capitalize text-center text-sm font-semibold tracking-wide text-zinc-400 transition-colors duration-300 ssm:text-xs;
+    @apply mt-4 capitalize text-center text-sm font-semibold tracking-wide text-zinc-500 dark:text-zinc-400 transition-colors duration-300 ssm:text-xs;
 }
 
 .skills-item-wrapper:hover .skills-name-container {
-    @apply text-zinc-100;
+    @apply text-zinc-900 dark:text-zinc-100;
 }
