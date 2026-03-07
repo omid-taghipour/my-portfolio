@@ -8,11 +8,6 @@ module.exports = {
             md: "1114px",
             lg: "1536px",
         },
-
-        fontFamily: {
-            headerLinks: ['M PLUS 1p', 'sans-serif'],
-            sectionTitles: ['Bebas Neue', 'sans-serif']
-        },
         extend: {
             colors: {
                 "green-dark-storyset": "#92E3A9",
@@ -31,6 +26,9 @@ module.exports = {
             },
             borderRadius: {
                 "4xl": "2rem",
+            },
+            boxShadow: {
+                glow: "0px 1px 3px rgba(0, 0, 0, 0.05) inset, 0px 0px 8px rgba(82, 168, 236, 0.6)",
             },
         },
     },

@@ -1,9 +1,3 @@
-.title-text{
-    @apply
-    text-pink-600
-    text-6xl
-    text-center
-    pb-9
-    font-sectionTitles
-    drop-shadow-2xl
+.title-text {
+    @apply text-cyan-500 text-5xl md:text-6xl text-center pb-12 font-extrabold tracking-tight uppercase drop-shadow-[0_0_15px_rgba(34,211,238,0.3)];
 }

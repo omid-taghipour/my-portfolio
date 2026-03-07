@@ -3,20 +3,18 @@ import logo from '../../assets/images/logo.png'
 import {useState} from "react";
 import {FaBars, FaTimes,} from "react-icons/fa"
 
+const headerItems = [
+    {id: 0, name: "home", href: "#home"},
+    {id: 1, name: "about me", href: "#about-me"},
+    {id: 2, name: "education", href: "#education"},
+    {id: 3, name: "skills", href: "#skills"},
+    {id: 4, name: "contact", href: "#contact"}
+]
+
 function NavBarComponent() {
-    const headerItems = [
-        {id: 0, name: "home", href: "#home"},
-        {id: 1, name: "about me", href: "#about-me"},
-        {id: 2, name: "education", href: "#education"},
-        {id: 3, name: "skills", href: "#skills"},
-        // {id: 2, name: "projects", href: "#projects"},
-        // {id: 5, name: "languages", href: "#languages"},
-        {id: 4, name: "contact", href: "#contact"}
-    ]
     const [open, setOpen] = useState(false);
     const handleMenu = () => {
-        setOpen((perv) => !perv);
-        console.log(open);
+        setOpen((prev) => !prev);
     };
     const scrollToTop = () => {
         window.scrollTo({
@@ -67,6 +65,7 @@ function NavBarComponent() {
                                                 href={item.href}
                                                 key={item.id}
                                                 className="responsive-nav-links"
+                                                onClick={() => setOpen(false)}
                                             >
                                                 {item.name}
                                             </a>
@@ -83,5 +82,3 @@ function NavBarComponent() {
 }
 
 export default NavBarComponent;
-
-

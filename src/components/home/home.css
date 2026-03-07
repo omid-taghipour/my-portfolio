@@ -1,51 +1,19 @@
 .welcome-container {
-    @apply
-    max-w-[1000px]
-    mx-auto
-    px-8
-    flex
-    flex-col
-    justify-center
-    h-screen
-    ;
+    @apply max-w-[1000px] mx-auto px-8 flex flex-col justify-center min-h-[100dvh] snap-start;
 }
 
 .welcome-container h6 {
-    @apply
-    text-pink-600
-    lg:text-2xl
+    @apply text-cyan-400 lg:text-2xl font-semibold tracking-wide uppercase mb-3;
 }
 
 .welcome-container h1 {
-    @apply
-    text-5xl
-    sm:text-7xl
-    font-bold
-    text-theme-bright2-white
-    pb-5
+    @apply text-5xl ssm:text-4xl sm:text-7xl font-extrabold pb-4 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent drop-shadow-sm;
 }
 
 .welcome-container h2 {
-    @apply
-    lg:text-4xl 
-    ssm:text-xl 
-    font-bold 
-    text-theme-bright1-white
-}
-
-.welcome-container h3 {
-    @apply
-    lg:text-4xl
-    sm:text-7xl
-    font-bold
-    text-theme-bright1-white
+    @apply lg:text-4xl ssm:text-2xl font-bold text-zinc-300 mb-6;
 }
 
 .welcome-container p {
-    @apply
-    text-theme-bright1-white
-    py-4
-    max-w-[700px]
-    text-justify
-    lg:text-2xl
+    @apply text-zinc-400 py-4 max-w-[700px] text-justify lg:text-xl leading-relaxed;
 }

@@ -1,128 +1,43 @@
 .nav-bar-main {
-    @apply
-    sticky
-    top-0
-    bg-theme-black
-    z-50
-    mx-auto
-    px-4
-    sm:px-6
-    lg:px-8;
+    @apply sticky top-0 bg-zinc-950/70 backdrop-blur-md border-b border-zinc-900/50 z-50 mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-300;
 }
 
 .nav-bar-container {
-    @apply
-    flex
-    items-center
-    justify-between
-    h-28;
+    @apply flex items-center justify-between h-20 md:h-24;
 }
 
 .nav-bar-logo {
-    @apply
-    flex
-    items-center
-    w-40
-    hover:w-44
-    duration-150;
+    @apply flex items-center w-32 hover:w-36 duration-300 transition-all opacity-90 hover:opacity-100;
 }
 
 .nav-bar-links-container {
-    @apply
-    hidden
-    md:block;
+    @apply hidden md:block;
 }
 
 .nav-bar-links {
-    @apply
-    ml-10
-    flex
-    items-baseline
-    space-x-4;
+    @apply ml-10 flex items-baseline space-x-6;
 }
 
 .nav-bar-links a {
-    @apply
-    text-white
-    font-headerLinks
-    px-5
-    py-2
-    rounded-md
-    text-2xl
-    capitalize
-    hover:text-pink-600
-    hover:text-[27px]
-    hover:font-bold
-    transition-all
-    duration-150;
+    @apply text-zinc-300 px-4 py-2 rounded-full text-lg capitalize hover:text-cyan-400 hover:bg-zinc-900/60 transition-all duration-300 tracking-wide font-medium;
 }
 
 .responsive-nav-links {
-    @apply
-    text-center
-    font-headerLinks
-    w-screen
-    capitalize
-    text-white
-    hover:text-pink-600
-    hover:rounded-none
-    hover:font-bold
-    block
-    px-3
-    py-2
-    rounded-md
-    text-2xl
-    duration-300
+    @apply text-center w-full capitalize text-zinc-300 hover:text-cyan-400 hover:bg-zinc-800/80 block px-4 py-4 text-xl duration-300 rounded-lg;
 }
 
 .normal-nav-links {
-    @apply
-    inline-flex
-    items-center
-    justify-center p-2
-    rounded-md
-    text-gray-light
-    hover:text-white
-    focus:outline-none
-    focus:ring-2
-    focus:ring-offset-2
-    focus:ring-offset-gray-light
-    focus:ring-white
+    @apply inline-flex items-center justify-center p-2 rounded-md text-zinc-400 hover:text-cyan-400 hover:bg-zinc-900 focus:outline-none transition-colors duration-200;
 }
 
 .hamburger-menu {
-    @apply
-    -mr-2
-    flex
-    md:hidden
-    bg-white;
+    @apply -mr-2 flex md:hidden bg-transparent;
 }
 
 .mobile-nav-links-container {
-    @apply
-    md:hidden
-    opacity-90
-    fixed
-    top-28
-    left-0
-    w-screen
-    h-screen
-    bg-black
-    flex
-    items-center
-    justify-center
-    flex-col
-    z-50;
+    @apply md:hidden fixed top-20 left-0 w-screen h-[calc(100vh-5rem)] bg-zinc-950/95 backdrop-blur-xl flex items-center justify-center flex-col z-50 px-6;
 }
 
 .mobile-nav-links {
-    @apply
-    pt-2
-    pb-3
-    flex
-    flex-col
-    items-center
-    space-y-1
-    sm:px-3
-    ssm:flex-auto;
+    @apply pt-4 pb-6 flex flex-col items-center space-y-4 w-full;
 }

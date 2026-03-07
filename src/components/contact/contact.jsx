@@ -1,13 +1,7 @@
-import React from 'react'
 import TextAnimation from '../text-animation/text-animation'
 import './contact.css'
-import { BsLinkedin } from 'react-icons/bs'
-import { BsGithub } from 'react-icons/bs'
+import { BsLinkedin, BsGithub } from 'react-icons/bs'
 import { SiGmail } from 'react-icons/si'
-
-const userInputEvaluation = (userInput) => {
-    
-}
 
 const Contact = () => {
     return (
@@ -31,7 +25,7 @@ const Contact = () => {
                 </div>
             </div>
             <hr className='divider-line' />
-            <form action="https://getform.io/f/d9de3f9a-1c79-46c2-b537-e13d37a10ae3" name='contact' className='contact-form' method='POST' onSubmit={userInputEvaluation}>
+            <form action="https://getform.io/f/d9de3f9a-1c79-46c2-b537-e13d37a10ae3" name='contact' className='contact-form' method='POST'>
                 <h2>Or you can send me a message through the following form</h2>
                 <input type="text" name="name" className="contact-name" placeholder='Your Name' required/>
                 <input type="email" name="email" className="contact-email" placeholder='Your Email' required/>

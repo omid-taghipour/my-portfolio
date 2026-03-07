@@ -1,0 +1,3 @@
+.section-divider-line {
+    @apply bg-transparent border-none py-16 h-0;
+}

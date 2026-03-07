@@ -1,4 +1,3 @@
-import React from 'react'
 import './education-items.css'
 
 function EducationItems({ logo, altText, title, desc, time, href }) {
@@ -14,10 +13,9 @@ function EducationItems({ logo, altText, title, desc, time, href }) {
                     {desc}
                 </p>
 
-                <pre>
+                <span>
                     {time}
-                </pre>
-                <br />
+                </span>
                 <a href={href} target='_blank' rel='noreferrer'>
                     Program information
                 </a>

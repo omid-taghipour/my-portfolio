@@ -1,80 +1,23 @@
 .education-item {
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05) inset, 0px 0px 8px rgba(82, 168, 236, 0.6);
-    @apply
-    flex
-    flex-col
-    text-white
-    m-5
-    text-center
-    justify-center
-    items-center
-    ssm:px-3
-    ssm:h-full
-    md:h-[60rem]
-}
-
-.education-item:hover {
-    background: linear-gradient(162deg, rgba(26,30,86,1) 0%, rgba(55,23,88,1) 40%, rgba(63,40,126,1) 68%, rgba(26,87,134,1) 100%);
+    @apply bg-zinc-900/40 border border-zinc-800 backdrop-blur-md rounded-3xl shadow-xl flex flex-col text-zinc-100 p-10 text-center justify-center items-center hover:-translate-y-2 hover:shadow-[0_0_30px_rgba(34,211,238,0.15)] transition-all duration-300 h-full;
 }
 
 .education-item img {
-    @apply
-    ssm:h-[8rem]
-    ssm:w-[8rem]
-    sm:h-[11rem]
-    sm:w-[11rem]
-    md:h-[22rem]
-    md:w-[22rem]
-    lg:h-[26rem]
-    lg:w-[26rem]
-    rounded-full
-    text-center
+    @apply w-32 h-32 md:w-48 md:h-48 rounded-full border-4 border-zinc-800 object-cover mb-8;
 }
 
 .education-item h3 {
-    @apply
-    lg:text-4xl
-    md:text-3xl
-    text-theme-bright2-white
-    font-bold
-    mt-5
-    ssm:text-xl
+    @apply lg:text-3xl md:text-2xl text-zinc-100 font-bold mb-3 ssm:text-xl;
 }
 
 .education-item p {
-    @apply
-    lg:text-3xl
-    md:text-2xl
-    text-theme-bright1-white
-    font-bold
-    mt-5
-    ssm:text-lg
+    @apply lg:text-xl md:text-lg text-cyan-400 font-semibold mb-3 ssm:text-base;
 }
 
-.education-item pre{
-    @apply
-    lg:text-2xl
-    md:text-xl
-    text-gray-400
-    font-bold
-    mt-5
-    ssm:text-lg
+.education-item span {
+    @apply block lg:text-lg md:text-base text-zinc-500 font-medium mb-8 ssm:text-sm;
 }
 
 .education-item a {
-    @apply
-    lg:text-2xl
-    md:text-xl
-    text-pink-600
-    border-2
-    border-pink-600
-    rounded-full
-    px-5    
-    py-2
-    hover:bg-pink-600
-    hover:text-white
-    transition-all
-    duration-300
-    whitespace-nowrap
-    ssm:text-lg
+    @apply inline-block mt-auto text-zinc-300 border border-zinc-700 bg-zinc-800/50 rounded-full px-6 py-3 hover:bg-cyan-500 hover:text-zinc-950 hover:border-cyan-400 transition-all duration-300 font-semibold text-lg;
 }
