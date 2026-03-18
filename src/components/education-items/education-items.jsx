@@ -1,6 +1,9 @@
 import './education-items.css'
 
+import { useTranslation } from 'react-i18next';
+
 function EducationItems({ logo, altText, title, desc, time, href }) {
+    const { t } = useTranslation();
     return (
         <div className='education-item'>
             <img src={logo} alt={altText} />
@@ -17,7 +20,7 @@ function EducationItems({ logo, altText, title, desc, time, href }) {
                     {time}
                 </span>
                 <a href={href} target='_blank' rel='noreferrer'>
-                    Program information
+                    {t('education.program_info')}
                 </a>
             </div>
         </div>

@@ -3,6 +3,8 @@ import logo from '../../assets/images/logo.png'
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import ThemeToggle from '../theme-toggle/theme-toggle';
+import LanguageSwitcher from '../language-switcher/language-switcher';
+import { useTranslation } from "react-i18next";
 
 const headerItems = [
     {id: 0, name: "home", href: "#home"},
@@ -13,6 +15,7 @@ const headerItems = [
 ]
 
 function NavBarComponent() {
+    const { t } = useTranslation();
     const [open, setOpen] = useState(false);
     const handleMenu = () => {
         setOpen((prev) => !prev);
@@ -35,17 +38,18 @@ function NavBarComponent() {
                         <div className="nav-bar-links">
                             {
                                 headerItems.map((item) => {
-                                    return <a href={item.href} key={item.id}>{item.name}</a>
+                                    return <a href={item.href} key={item.id}>{t(`nav.${item.name.replace(' ', '_')}`)}</a>
                                 })
                             }
                         </div>
                         <div className="hidden md:flex items-center">
                             <ThemeToggle />
+                            <LanguageSwitcher />
                         </div>
                     </div>
-                    {/*  Hamburger menu  */}
                     <div className="hamburger-menu flex items-center md:hidden">
                         <ThemeToggle />
+                        <LanguageSwitcher />
                         <button
                             type="button"
                             onClick={handleMenu}
@@ -72,7 +76,7 @@ function NavBarComponent() {
                                                 className="responsive-nav-links"
                                                 onClick={() => setOpen(false)}
                                             >
-                                                {item.name}
+                                                {t(`nav.${item.name.replace(' ', '_')}`)}
                                             </a>
                                         )
                                     }

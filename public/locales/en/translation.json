@@ -1,0 +1,273 @@
+{
+  "about": {
+    "title": "About Me",
+    "paragraph1": "I am Omid, a dedicated software engineer with a distinct focus on DevOps. My passion for technology began early, leading to hands-on exploration of operating systems and system architectures. I hold a Bachelor's degree in Information Technology and am currently advancing my expertise through a Master's degree in Data Science. This strong educational foundation continuously shapes my professional trajectory.\n",
+    "paragraph2": "I thrive in challenging environments, excelling at analyzing complex problems to architect efficient, scalable solutions. My primary interest lies within DevOps—bridging the gap between development and operations to optimize workflows and ensure robust, automated deployments. By combining my software engineering background with core DevOps principles, I am committed to building resilient and high-performing systems. ✨\n"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle1": "Feel free to connect with me across these professional platforms.",
+    "subtitle2": "Alternatively, you can send me a direct message using the form below.",
+    "placeholder_name": "Your Name",
+    "placeholder_email": "Your Email",
+    "placeholder_message": "Your Message",
+    "submit_button": "Send Message"
+  },
+  "education": {
+    "title": "Education",
+    "program_info": "Program information",
+    "list": [
+      {
+        "id": 1,
+        "logo": "EMU",
+        "name": "B.S. in Information Technology",
+        "uni": "Eastern Mediterranean University",
+        "duration": "Feb 2018 - Jul 2021",
+        "link": "https://www.emu.edu.tr/en/programs/information-technology-undergraduate-program/925"
+      },
+      {
+        "id": 2,
+        "logo": "Kiel",
+        "name": "M.S. in Data Science",
+        "uni": "Kiel University of Applied Sciences",
+        "duration": "Sep 2022 - Present",
+        "link": "https://www.fh-kiel.de/en/degree-courses/courses/data-science/"
+      }
+    ]
+  },
+  "home": {
+    "greeting": "Hello! I am",
+    "title": "Omid Taghipour",
+    "subtitle": "A dedicated tech professional",
+    "description": "Passionate about revolutionizing development operations and architecting scalable solutions. Welcome to my portfolio, where I showcase my expertise and journey in the technology industry. Let's explore the possibilities together. 💻🔍✨\n",
+    "read_more": "Read About Me",
+    "view_resume": "View Resume"
+  },
+  "nav": {
+    "home": "Home",
+    "about_me": "About Me",
+    "education": "Education",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "projects": {
+    "title": "Projects",
+    "list": [
+      {
+        "id": 1,
+        "name": "Competition Grading System",
+        "langs": [
+          "html",
+          "css",
+          "javascript",
+          "php",
+          "mysql"
+        ],
+        "image": "",
+        "desc": "A web application developed for BITEK competition jury members to efficiently rate and evaluate participating teams.",
+        "state": "active"
+      },
+      {
+        "id": 2,
+        "name": "COVID-19 Test Evaluation System",
+        "langs": [
+          "html",
+          "css",
+          "javascript",
+          "bootstrap",
+          "python",
+          "django"
+        ],
+        "image": "",
+        "desc": "A comprehensive portal module enabling universities to track and evaluate student COVID-19 test results, utilizing automated web scraping from official health systems.",
+        "state": "active"
+      },
+      {
+        "id": 3,
+        "name": "Animal Shelter Management System",
+        "langs": [
+          "html",
+          "css",
+          "javascript",
+          "bootstrap",
+          "jQuery",
+          "Ajax",
+          "php",
+          "mysql"
+        ],
+        "image": "",
+        "desc": "An integrated management platform for animal shelters, facilitating the administration of animal tracking, kennel assignments, veterinary records, and operational expenses.",
+        "state": "inactive"
+      },
+      {
+        "id": 4,
+        "name": "Interactive Blog Platform",
+        "langs": [
+          "html",
+          "css",
+          "Bootstrap",
+          "php",
+          "mysql"
+        ],
+        "image": "",
+        "desc": "A dynamic web application allowing users to publish, share, and engage with content.",
+        "state": "active"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "list": [
+      {
+        "id": 1,
+        "name": "python",
+        "logoComponent": "SiPython"
+      },
+      {
+        "id": 2,
+        "name": "mySQL",
+        "logoComponent": "SiMysql"
+      },
+      {
+        "id": 3,
+        "name": "PHP",
+        "logoComponent": "SiPhp"
+      },
+      {
+        "id": 4,
+        "name": "mongoDB",
+        "logoComponent": "SiMongodb"
+      },
+      {
+        "id": 5,
+        "name": "react JS",
+        "logoComponent": "GrReactjs"
+      },
+      {
+        "id": 6,
+        "name": "Tailwindcss",
+        "logoComponent": "SiTailwindcss"
+      },
+      {
+        "id": 7,
+        "name": "java",
+        "logoComponent": "FaJava"
+      },
+      {
+        "id": 8,
+        "name": "git",
+        "logoComponent": "BsGit"
+      },
+      {
+        "id": 9,
+        "name": "Jupyter",
+        "logoComponent": "SiJupyter"
+      },
+      {
+        "id": 10,
+        "name": "powerShell",
+        "logoComponent": "SiPowershell"
+      },
+      {
+        "id": 11,
+        "name": "linux",
+        "logoComponent": "FaLinux"
+      },
+      {
+        "id": 12,
+        "name": "AWS",
+        "logoComponent": "BiLogoAws"
+      },
+      {
+        "id": 13,
+        "name": "docker",
+        "logoComponent": "FaDocker"
+      },
+      {
+        "id": 14,
+        "name": "kubernetes",
+        "logoComponent": "SiKubernetes"
+      },
+      {
+        "id": 15,
+        "name": "bash",
+        "logoComponent": "SiGnubash"
+      },
+      {
+        "id": 16,
+        "name": "zabbix",
+        "logoComponent": "TbHeartRateMonitor"
+      },
+      {
+        "id": 17,
+        "name": "jenkins",
+        "logoComponent": "FaJenkins"
+      },
+      {
+        "id": 29,
+        "name": "TeamCity",
+        "logoComponent": "SiTeamcity"
+      },
+      {
+        "id": 30,
+        "name": "go",
+        "logoComponent": "FaGolang"
+      },
+      {
+        "id": 18,
+        "name": "ansible",
+        "logoComponent": "SiAnsible"
+      },
+      {
+        "id": 19,
+        "name": "terraform",
+        "logoComponent": "SiTerraform"
+      },
+      {
+        "id": 20,
+        "name": "prometheus",
+        "logoComponent": "SiPrometheus"
+      },
+      {
+        "id": 21,
+        "name": "grafana",
+        "logoComponent": "SiGrafana"
+      },
+      {
+        "id": 22,
+        "name": "NGINX",
+        "logoComponent": "DiNginx"
+      },
+      {
+        "id": 23,
+        "name": "postgres",
+        "logoComponent": "BiLogoPostgresql"
+      },
+      {
+        "id": 24,
+        "name": "Jira",
+        "logoComponent": "SiJira"
+      },
+      {
+        "id": 25,
+        "name": "Bitbucket",
+        "logoComponent": "DiBitbucket"
+      },
+      {
+        "id": 26,
+        "name": "github",
+        "logoComponent": "FaGithub"
+      },
+      {
+        "id": 27,
+        "name": "github actions",
+        "logoComponent": "SiGithubactions"
+      },
+      {
+        "id": 28,
+        "name": "flyway",
+        "logoComponent": "SiFlyway"
+      }
+    ]
+  }
+}

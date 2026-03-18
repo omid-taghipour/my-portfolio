@@ -1,0 +1,30 @@
+title: "Projekte"
+
+list:
+  - id: 1
+    name: "Wettbewerbs-Bewertungssystem"
+    langs: ["html", "css", "javascript", "php", "mysql"]
+    image: ""
+    desc: "Eine Webanwendung, die für Jury-Mitglieder des BITEK-Wettbewerbs entwickelt wurde, um teilnehmende Teams effizient zu bewerten."
+    state: "active"
+
+  - id: 2
+    name: "COVID-19 Testauswertungssystem"
+    langs: ["html", "css", "javascript", "bootstrap", "python", "django"]
+    image: ""
+    desc: "Ein umfassendes Portalmodul, das es Universitäten ermöglicht, die COVID-19-Testergebnisse von Studenten zu verfolgen und auszuwerten, unter Verwendung von automatisiertem Web-Scraping aus offiziellen Gesundheitssystemen."
+    state: "active"
+
+  - id: 3
+    name: "Tierheim-Verwaltungssystem"
+    langs: ["html", "css", "javascript", "bootstrap", "jQuery", "Ajax", "php", "mysql"]
+    image: ""
+    desc: "Eine integrierte Managementplattform für Tierheime zur Erleichterung der Verwaltung von Tierverfolgung, Zuweisung von Zwingern, tierärztlichen Aufzeichnungen und Betriebskosten."
+    state: "inactive"
+
+  - id: 4
+    name: "Interaktive Blog-Plattform"
+    langs: ["html", "css", "Bootstrap", "php", "mysql"]
+    image: ""
+    desc: "Eine dynamische Webanwendung, die es Benutzern ermöglicht, Inhalte zu veröffentlichen, zu teilen und damit zu interagieren."
+    state: "active"

@@ -1,0 +1,30 @@
+title: "Projects"
+
+list:
+  - id: 1
+    name: "Competition Grading System"
+    langs: ["html", "css", "javascript", "php", "mysql"]
+    image: ""
+    desc: "A web application developed for BITEK competition jury members to efficiently rate and evaluate participating teams."
+    state: "active"
+
+  - id: 2
+    name: "COVID-19 Test Evaluation System"
+    langs: ["html", "css", "javascript", "bootstrap", "python", "django"]
+    image: ""
+    desc: "A comprehensive portal module enabling universities to track and evaluate student COVID-19 test results, utilizing automated web scraping from official health systems."
+    state: "active"
+
+  - id: 3
+    name: "Animal Shelter Management System"
+    langs: ["html", "css", "javascript", "bootstrap", "jQuery", "Ajax", "php", "mysql"]
+    image: ""
+    desc: "An integrated management platform for animal shelters, facilitating the administration of animal tracking, kennel assignments, veterinary records, and operational expenses."
+    state: "inactive"
+
+  - id: 4
+    name: "Interactive Blog Platform"
+    langs: ["html", "css", "Bootstrap", "php", "mysql"]
+    image: ""
+    desc: "A dynamic web application allowing users to publish, share, and engage with content."
+    state: "active"

@@ -10,50 +10,56 @@ import { BiLogoAws, BiLogoPostgresql } from 'react-icons/bi';
 import { TbHeartRateMonitor } from 'react-icons/tb';
 import { FaGolang } from 'react-icons/fa6';
 import { DiNginx, DiBitbucket } from 'react-icons/di';
-
+import { useTranslation } from 'react-i18next';
 
 function Skills() {
-    const skills = [
-        { id: 1, name: "python", logo: <SiPython className="skill-logo" /> },
-        { id: 2, name: "mySQL", logo: <SiMysql className="skill-logo" /> },
-        { id: 3, name: "PHP", logo: <SiPhp className="skill-logo" /> },
-        { id: 4, name: "mongoDB", logo: <SiMongodb className="skill-logo" /> },
-        { id: 5, name: "react JS", logo: <GrReactjs className="skill-logo" /> },
-        { id: 6, name: "Tailwindcss", logo: <SiTailwindcss className="skill-logo" /> },
-        { id: 7, name: "java", logo: <FaJava className="skill-logo" /> },
-        { id: 8, name: "git", logo: <BsGit className="skill-logo" /> },
-        { id: 9, name: "Jupyter", logo: <SiJupyter className="skill-logo" /> },
-        { id: 10, name: "powerShell", logo: <SiPowershell className="skill-logo" /> },
-        { id: 11, name: "linux", logo: <FaLinux className="skill-logo" /> },
-        { id: 12, name: "AWS", logo: <BiLogoAws className="skill-logo" /> },
-        { id: 13, name: "docker", logo: <FaDocker className="skill-logo" /> },
-        { id: 14, name: "kubernetes", logo: <SiKubernetes className="skill-logo" /> },
-        { id: 15, name: "bash", logo: <SiGnubash className="skill-logo" /> },
-        { id: 16, name: "zabbix", logo: <TbHeartRateMonitor className="skill-logo" /> },
-        { id: 17, name: "jenkins", logo: <FaJenkins className="skill-logo" /> },
-        { id: 29, name: "TeamCity", logo: <SiTeamcity className="skill-logo" /> },
-        { id: 30, name: "go", logo: <FaGolang className="skill-logo" /> },
-        { id: 18, name: "ansible", logo: <SiAnsible className="skill-logo" /> },
-        { id: 19, name: "terraform", logo: <SiTerraform className="skill-logo" /> },
-        { id: 20, name: "prometheus", logo: <SiPrometheus className="skill-logo" /> },
-        { id: 21, name: "grafana", logo: <SiGrafana className="skill-logo" /> },
-        { id: 22, name: "NGINX", logo: <DiNginx className="skill-logo" /> },
-        { id: 23, name: "postgres", logo: <BiLogoPostgresql className="skill-logo" /> },
-        { id: 24, name: "Jira", logo: <SiJira className="skill-logo" /> },
-        { id: 25, name: "Bitbucket", logo: <DiBitbucket className="skill-logo" /> },
-        { id: 26, name: "github", logo: <FaGithub className="skill-logo" /> },
-        { id: 27, name: "github actions", logo: <SiGithubactions className="skill-logo" /> },
-        { id: 28, name: "flyway", logo: <SiFlyway className="skill-logo" /> },
-    ]
+    const { t } = useTranslation();
+    const skillsList = t('skills.list', { returnObjects: true }) || [];
+
+    const getLogo = (logoComponent) => {
+        const logoMap = {
+            SiPython: <SiPython className="skill-logo" />,
+            SiMysql: <SiMysql className="skill-logo" />,
+            SiPhp: <SiPhp className="skill-logo" />,
+            SiMongodb: <SiMongodb className="skill-logo" />,
+            GrReactjs: <GrReactjs className="skill-logo" />,
+            SiTailwindcss: <SiTailwindcss className="skill-logo" />,
+            FaJava: <FaJava className="skill-logo" />,
+            BsGit: <BsGit className="skill-logo" />,
+            SiJupyter: <SiJupyter className="skill-logo" />,
+            SiPowershell: <SiPowershell className="skill-logo" />,
+            FaLinux: <FaLinux className="skill-logo" />,
+            BiLogoAws: <BiLogoAws className="skill-logo" />,
+            FaDocker: <FaDocker className="skill-logo" />,
+            SiKubernetes: <SiKubernetes className="skill-logo" />,
+            SiGnubash: <SiGnubash className="skill-logo" />,
+            TbHeartRateMonitor: <TbHeartRateMonitor className="skill-logo" />,
+            FaJenkins: <FaJenkins className="skill-logo" />,
+            SiTeamcity: <SiTeamcity className="skill-logo" />,
+            FaGolang: <FaGolang className="skill-logo" />,
+            SiAnsible: <SiAnsible className="skill-logo" />,
+            SiTerraform: <SiTerraform className="skill-logo" />,
+            SiPrometheus: <SiPrometheus className="skill-logo" />,
+            SiGrafana: <SiGrafana className="skill-logo" />,
+            DiNginx: <DiNginx className="skill-logo" />,
+            BiLogoPostgresql: <BiLogoPostgresql className="skill-logo" />,
+            SiJira: <SiJira className="skill-logo" />,
+            DiBitbucket: <DiBitbucket className="skill-logo" />,
+            FaGithub: <FaGithub className="skill-logo" />,
+            SiGithubactions: <SiGithubactions className="skill-logo" />,
+            SiFlyway: <SiFlyway className="skill-logo" />
+        };
+        return logoMap[logoComponent] || null;
+    };
 
     return (
         <div className='skills-container'>
-            <TextAnimation tagName={'h1'} text={'Skills'} typingSpeed={100} classAtt={"title-text"} />
+            <TextAnimation tagName={'h1'} text={t('skills.title')} typingSpeed={100} classAtt={"title-text"} />
                 <div className='skills-items'>
                     {
-                        skills.map(
+                        skillsList.map(
                             (skill) => {
-                                return <SkillsItem key={skill.id} id={skill.id} name={skill.name} logo={skill.logo} />
+                                return <SkillsItem key={skill.id} id={skill.id} name={skill.name} logo={getLogo(skill.logoComponent)} />
                             }
                         )
                     }

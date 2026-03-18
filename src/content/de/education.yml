@@ -1,0 +1,17 @@
+title: "Bildung"
+program_info: "Programminformationen"
+
+list:
+  - id: 1
+    logo: "EMU"
+    name: "B.Sc. in Informationstechnologie"
+    uni: "Eastern Mediterranean University"
+    duration: "Feb 2018 - Jul 2021"
+    link: "https://www.emu.edu.tr/en/programs/information-technology-undergraduate-program/925"
+
+  - id: 2
+    logo: "Kiel"
+    name: "M.Sc. in Data Science"
+    uni: "Fachhochschule Kiel"
+    duration: "Sep 2022 - Heute"
+    link: "https://www.fh-kiel.de/en/degree-courses/courses/data-science/"

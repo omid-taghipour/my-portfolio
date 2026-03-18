@@ -3,20 +3,25 @@ import EMU from '../../assets/images/EMU.webp'
 import Kiel from '../../assets/images/FH-Kiel.jpg'
 import EducationItems from '../education-items/education-items';
 import TextAnimation from '../text-animation/text-animation';
+import { useTranslation } from 'react-i18next';
 
 function Education() {
-    const educations = [
-        {id:1,logo:EMU, name:"B.S. in  Information Technology", uni: "Eastern Mediterranean University", duration:"Feb 2018 - Jul 2021", link:"https://www.emu.edu.tr/en/programs/information-technology-undergraduate-program/925"},
-        {id:2,logo:Kiel, name:"M.S. in Data Science", uni: "Kiel University of Applied Science", duration:"Sep 2022 - Present", link:"https://www.fh-kiel.de/en/degree-courses/courses/data-science/"},
-    ]
+    const { t } = useTranslation();
+    const educations = t('education.list', { returnObjects: true }) || [];
+
+    const getLogo = (logoName) => {
+        if (logoName === 'EMU') return EMU;
+        if (logoName === 'Kiel') return Kiel;
+        return null;
+    };
 
     return (
         <div className='education-container'>
-            <TextAnimation tagName={'h1'} text={'education'} typingSpeed={100} classAtt={"title-text"} />
+            <TextAnimation tagName={'h1'} text={t('education.title')} typingSpeed={100} classAtt={"title-text"} />
             <div className='education-items-container'>
                 {
                     educations.map(({id, logo, name, uni, duration, link}) => {
-                        return <EducationItems key={id} logo={logo} altText={uni} title={uni} desc={name} time={duration} href={link} />
+                        return <EducationItems key={id} logo={getLogo(logo)} altText={uni} title={uni} desc={name} time={duration} href={link} />
                     })
                 }
             </div>
