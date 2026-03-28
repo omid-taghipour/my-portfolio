@@ -3,11 +3,11 @@
 }
 
 .skills-item-box {
-    @apply bg-zinc-200/50 dark:bg-zinc-800/40 border border-zinc-300 dark:border-zinc-700 rounded-2xl p-6 w-32 h-32 flex justify-center items-center transition-all duration-300 shadow-lg text-zinc-700 dark:text-zinc-300 ssm:w-24 ssm:h-24 ssm:p-3;
+    @apply bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md border border-zinc-200/50 dark:border-zinc-800/50 shadow-sm transition-all duration-300 rounded-2xl p-6 w-32 h-32 flex justify-center items-center text-zinc-700 dark:text-zinc-300 ssm:w-24 ssm:h-24 ssm:p-3;
 }
 
 .skills-item-wrapper:hover .skills-item-box {
-    @apply -translate-y-2 border-cyan-400 dark:border-cyan-500 shadow-[0_0_25px_rgba(34,211,238,0.3)] dark:shadow-[0_0_25px_rgba(34,211,238,0.2)] bg-white/80 dark:bg-zinc-800/80;
+    @apply -translate-y-2 border-cyan-400 dark:border-cyan-500 shadow-[0_0_25px_rgba(34,211,238,0.3)] dark:shadow-[0_0_25px_rgba(34,211,238,0.2)] bg-white/90 dark:bg-zinc-900/60;
 }
 
 .skills-logo-container {

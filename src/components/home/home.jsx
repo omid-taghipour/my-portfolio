@@ -4,7 +4,8 @@ import { HiOutlineDownload } from "react-icons/hi";
 import { useTranslation } from "react-i18next";
 
 const Home = () => {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
+    const resumeLang = i18n.language === 'de' ? 'DE' : 'EN';
     return (
         <div className={'welcome-container'}>
             <h6>{t('home.greeting')} </h6>
@@ -19,7 +20,7 @@ const Home = () => {
 
             <div className="home-action-buttons">
                 <NavigationButton title={t('home.read_more')} href={'#about-me'}/>
-                <a href={process.env.PUBLIC_URL + '/Omid_Taghipour_Resume_EN.pdf'} target="_blank" rel="noreferrer" className="nav-button group" aria-label="View Resume">
+                <a href={process.env.PUBLIC_URL + `/Omid_Taghipour_Resume_${resumeLang}.pdf`} target="_blank" rel="noreferrer" className="nav-button group" aria-label="View Resume">
                     {t('home.view_resume')}
                     <span className="group-hover:translate-x-1 duration-300">
                         <HiOutlineDownload className="nav-arrow" size={20} />

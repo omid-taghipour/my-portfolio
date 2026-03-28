@@ -1,93 +1,110 @@
 title: "Skills"
 
-list:
-  - id: 1
-    name: "python"
-    logoComponent: "SiPython"
-  - id: 2
-    name: "mySQL"
-    logoComponent: "SiMysql"
-  - id: 3
-    name: "PHP"
-    logoComponent: "SiPhp"
-  - id: 4
-    name: "mongoDB"
-    logoComponent: "SiMongodb"
-  - id: 5
-    name: "react JS"
-    logoComponent: "GrReactjs"
-  - id: 6
-    name: "Tailwindcss"
-    logoComponent: "SiTailwindcss"
-  - id: 7
-    name: "java"
-    logoComponent: "FaJava"
-  - id: 8
-    name: "git"
-    logoComponent: "BsGit"
-  - id: 9
-    name: "Jupyter"
-    logoComponent: "SiJupyter"
-  - id: 10
-    name: "powerShell"
-    logoComponent: "SiPowershell"
-  - id: 11
-    name: "linux"
-    logoComponent: "FaLinux"
-  - id: 12
-    name: "AWS"
-    logoComponent: "BiLogoAws"
-  - id: 13
-    name: "docker"
-    logoComponent: "FaDocker"
-  - id: 14
-    name: "kubernetes"
-    logoComponent: "SiKubernetes"
-  - id: 15
-    name: "bash"
-    logoComponent: "SiGnubash"
-  - id: 16
-    name: "zabbix"
-    logoComponent: "TbHeartRateMonitor"
-  - id: 17
-    name: "jenkins"
-    logoComponent: "FaJenkins"
-  - id: 29
-    name: "TeamCity"
-    logoComponent: "SiTeamcity"
-  - id: 30
-    name: "go"
-    logoComponent: "FaGolang"
-  - id: 18
-    name: "ansible"
-    logoComponent: "SiAnsible"
-  - id: 19
-    name: "terraform"
-    logoComponent: "SiTerraform"
-  - id: 20
-    name: "prometheus"
-    logoComponent: "SiPrometheus"
-  - id: 21
-    name: "grafana"
-    logoComponent: "SiGrafana"
-  - id: 22
-    name: "NGINX"
-    logoComponent: "DiNginx"
-  - id: 23
-    name: "postgres"
-    logoComponent: "BiLogoPostgresql"
-  - id: 24
-    name: "Jira"
-    logoComponent: "SiJira"
-  - id: 25
-    name: "Bitbucket"
-    logoComponent: "DiBitbucket"
-  - id: 26
-    name: "github"
-    logoComponent: "FaGithub"
-  - id: 27
-    name: "github actions"
-    logoComponent: "SiGithubactions"
-  - id: 28
-    name: "flyway"
-    logoComponent: "SiFlyway"
+categories:
+  - name: "Programming & Scripts"
+    skills:
+      - id: 1
+        name: "Python"
+        logoComponent: "SiPython"
+      - id: 3
+        name: "PHP"
+        logoComponent: "SiPhp"
+      - id: 7
+        name: "Java"
+        logoComponent: "FaJava"
+      - id: 10
+        name: "PowerShell"
+        logoComponent: "SiPowershell"
+      - id: 15
+        name: "Bash"
+        logoComponent: "SiGnubash"
+      - id: 30
+        name: "Go"
+        logoComponent: "FaGolang"
+      - id: 9
+        name: "Jupyter"
+        logoComponent: "SiJupyter"
+        
+  - name: "Web & Frameworks"
+    skills:
+      - id: 5
+        name: "React JS"
+        logoComponent: "GrReactjs"
+      - id: 6
+        name: "TailwindCSS"
+        logoComponent: "SiTailwindcss"
+      - id: 22
+        name: "NGINX"
+        logoComponent: "DiNginx"
+
+  - name: "Cloud & DevOps"
+    skills:
+      - id: 12
+        name: "AWS"
+        logoComponent: "BiLogoAws"
+      - id: 13
+        name: "Docker"
+        logoComponent: "FaDocker"
+      - id: 14
+        name: "Kubernetes"
+        logoComponent: "SiKubernetes"
+      - id: 17
+        name: "Jenkins"
+        logoComponent: "FaJenkins"
+      - id: 29
+        name: "TeamCity"
+        logoComponent: "SiTeamcity"
+      - id: 18
+        name: "Ansible"
+        logoComponent: "SiAnsible"
+      - id: 19
+        name: "Terraform"
+        logoComponent: "SiTerraform"
+      - id: 28
+        name: "Flyway"
+        logoComponent: "SiFlyway"
+
+  - name: "Databases"
+    skills:
+      - id: 2
+        name: "MySQL"
+        logoComponent: "SiMysql"
+      - id: 4
+        name: "MongoDB"
+        logoComponent: "SiMongodb"
+      - id: 23
+        name: "PostgreSQL"
+        logoComponent: "BiLogoPostgresql"
+
+  - name: "Monitoring & Observability"
+    skills:
+      - id: 16
+        name: "Zabbix"
+        logoComponent: "TbHeartRateMonitor"
+      - id: 20
+        name: "Prometheus"
+        logoComponent: "SiPrometheus"
+      - id: 21
+        name: "Grafana"
+        logoComponent: "SiGrafana"
+
+  - name: "OS & Version Control"
+    skills:
+      - id: 11
+        name: "Linux"
+        logoComponent: "FaLinux"
+      - id: 8
+        name: "Git"
+        logoComponent: "BsGit"
+      - id: 24
+        name: "Jira"
+        logoComponent: "SiJira"
+      - id: 25
+        name: "Bitbucket"
+        logoComponent: "DiBitbucket"
+      - id: 26
+        name: "GitHub"
+        logoComponent: "FaGithub"
+      - id: 27
+        name: "GitHub Actions"
+        logoComponent: "SiGithubactions"

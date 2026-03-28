@@ -6,6 +6,7 @@ import Divider from "./components/divider/divider";
 import Education from "./components/education/education";
 import Skills from "./components/skills/skills";
 import Contact from "./components/contact/contact";
+import Projects from "./components/projects/projects";
 import Footer from "./components/footer/footer";
 
 
@@ -25,7 +26,8 @@ function App() {
       <Skills />
       <Divider id="contact" />
       <Contact />
-      {/* <Projects /> */}
+      <Divider id="projects" />
+      <Projects />
       <Footer version={APP_VERSION} />
     </div>
   );

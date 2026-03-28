@@ -14,7 +14,7 @@ import { useTranslation } from 'react-i18next';
 
 function Skills() {
     const { t } = useTranslation();
-    const skillsList = t('skills.list', { returnObjects: true }) || [];
+    const skillsCategories = t('skills.categories', { returnObjects: true }) || [];
 
     const getLogo = (logoComponent) => {
         const logoMap = {
@@ -55,15 +55,24 @@ function Skills() {
     return (
         <div className='skills-container'>
             <TextAnimation tagName={'h1'} text={t('skills.title')} typingSpeed={100} classAtt={"title-text"} />
-                <div className='skills-items'>
-                    {
-                        skillsList.map(
-                            (skill) => {
-                                return <SkillsItem key={skill.id} id={skill.id} name={skill.name} logo={getLogo(skill.logoComponent)} />
-                            }
-                        )
-                    }
-                </div>
+            <div className='skills-categories-container'>
+                {
+                    skillsCategories.map((category, index) => (
+                        <div key={index} className="skills-category">
+                            <h3 className="skills-category-title">{category.name}</h3>
+                            <div className='skills-items'>
+                                {
+                                    category.skills.map(
+                                        (skill) => {
+                                            return <SkillsItem key={skill.id} id={skill.id} name={skill.name} logo={getLogo(skill.logoComponent)} />
+                                        }
+                                    )
+                                }
+                            </div>
+                        </div>
+                    ))
+                }
+            </div>
         </div>
     )
 }

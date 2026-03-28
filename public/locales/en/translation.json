@@ -1,8 +1,8 @@
 {
   "about": {
     "title": "About Me",
-    "paragraph1": "I am Omid, a dedicated software engineer with a distinct focus on DevOps. My passion for technology began early, leading to hands-on exploration of operating systems and system architectures. I hold a Bachelor's degree in Information Technology and am currently advancing my expertise through a Master's degree in Data Science. This strong educational foundation continuously shapes my professional trajectory.\n",
-    "paragraph2": "I thrive in challenging environments, excelling at analyzing complex problems to architect efficient, scalable solutions. My primary interest lies within DevOps—bridging the gap between development and operations to optimize workflows and ensure robust, automated deployments. By combining my software engineering background with core DevOps principles, I am committed to building resilient and high-performing systems. ✨\n"
+    "paragraph1": "I am Omid, a dedicated software engineer with a distinct focus on DevOps. My passion for technology began early, leading to hands-on exploration of operating systems and system architectures. I hold a Bachelor's degree in Information Technology and am currently advancing my expertise through a Master's degree in Data Science. This strong educational foundation continuously shapes my professional trajectory.",
+    "paragraph2": "I thrive in challenging environments, excelling at analyzing complex problems to architect efficient, scalable solutions. My primary interest lies within DevOps—bridging the gap between development and operations to optimize workflows and ensure robust, automated deployments. By combining my software engineering background with core DevOps principles, I am committed to building resilient and high-performing systems. ✨"
   },
   "contact": {
     "title": "Contact",
@@ -39,7 +39,7 @@
     "greeting": "Hello! I am",
     "title": "Omid Taghipour",
     "subtitle": "A dedicated tech professional",
-    "description": "Passionate about revolutionizing development operations and architecting scalable solutions. Welcome to my portfolio, where I showcase my expertise and journey in the technology industry. Let's explore the possibilities together. 💻🔍✨\n",
+    "description": "Passionate about revolutionizing development operations and architecting scalable solutions. Welcome to my portfolio, where I showcase my expertise and journey in the technology industry. Let's explore the possibilities together. 💻🔍✨",
     "read_more": "Read About Me",
     "view_resume": "View Resume"
   },
@@ -48,6 +48,7 @@
     "about_me": "About Me",
     "education": "Education",
     "skills": "Skills",
+    "projects": "Projects",
     "contact": "Contact"
   },
   "projects": {
@@ -117,156 +118,186 @@
   },
   "skills": {
     "title": "Skills",
-    "list": [
+    "categories": [
       {
-        "id": 1,
-        "name": "python",
-        "logoComponent": "SiPython"
+        "name": "Programming & Scripts",
+        "skills": [
+          {
+            "id": 1,
+            "name": "Python",
+            "logoComponent": "SiPython"
+          },
+          {
+            "id": 3,
+            "name": "PHP",
+            "logoComponent": "SiPhp"
+          },
+          {
+            "id": 7,
+            "name": "Java",
+            "logoComponent": "FaJava"
+          },
+          {
+            "id": 10,
+            "name": "PowerShell",
+            "logoComponent": "SiPowershell"
+          },
+          {
+            "id": 15,
+            "name": "Bash",
+            "logoComponent": "SiGnubash"
+          },
+          {
+            "id": 30,
+            "name": "Go",
+            "logoComponent": "FaGolang"
+          },
+          {
+            "id": 9,
+            "name": "Jupyter",
+            "logoComponent": "SiJupyter"
+          }
+        ]
       },
       {
-        "id": 2,
-        "name": "mySQL",
-        "logoComponent": "SiMysql"
+        "name": "Web & Frameworks",
+        "skills": [
+          {
+            "id": 5,
+            "name": "React JS",
+            "logoComponent": "GrReactjs"
+          },
+          {
+            "id": 6,
+            "name": "TailwindCSS",
+            "logoComponent": "SiTailwindcss"
+          },
+          {
+            "id": 22,
+            "name": "NGINX",
+            "logoComponent": "DiNginx"
+          }
+        ]
       },
       {
-        "id": 3,
-        "name": "PHP",
-        "logoComponent": "SiPhp"
+        "name": "Cloud & DevOps",
+        "skills": [
+          {
+            "id": 12,
+            "name": "AWS",
+            "logoComponent": "BiLogoAws"
+          },
+          {
+            "id": 13,
+            "name": "Docker",
+            "logoComponent": "FaDocker"
+          },
+          {
+            "id": 14,
+            "name": "Kubernetes",
+            "logoComponent": "SiKubernetes"
+          },
+          {
+            "id": 17,
+            "name": "Jenkins",
+            "logoComponent": "FaJenkins"
+          },
+          {
+            "id": 29,
+            "name": "TeamCity",
+            "logoComponent": "SiTeamcity"
+          },
+          {
+            "id": 18,
+            "name": "Ansible",
+            "logoComponent": "SiAnsible"
+          },
+          {
+            "id": 19,
+            "name": "Terraform",
+            "logoComponent": "SiTerraform"
+          },
+          {
+            "id": 28,
+            "name": "Flyway",
+            "logoComponent": "SiFlyway"
+          }
+        ]
       },
       {
-        "id": 4,
-        "name": "mongoDB",
-        "logoComponent": "SiMongodb"
+        "name": "Databases",
+        "skills": [
+          {
+            "id": 2,
+            "name": "MySQL",
+            "logoComponent": "SiMysql"
+          },
+          {
+            "id": 4,
+            "name": "MongoDB",
+            "logoComponent": "SiMongodb"
+          },
+          {
+            "id": 23,
+            "name": "PostgreSQL",
+            "logoComponent": "BiLogoPostgresql"
+          }
+        ]
       },
       {
-        "id": 5,
-        "name": "react JS",
-        "logoComponent": "GrReactjs"
+        "name": "Monitoring & Observability",
+        "skills": [
+          {
+            "id": 16,
+            "name": "Zabbix",
+            "logoComponent": "TbHeartRateMonitor"
+          },
+          {
+            "id": 20,
+            "name": "Prometheus",
+            "logoComponent": "SiPrometheus"
+          },
+          {
+            "id": 21,
+            "name": "Grafana",
+            "logoComponent": "SiGrafana"
+          }
+        ]
       },
       {
-        "id": 6,
-        "name": "Tailwindcss",
-        "logoComponent": "SiTailwindcss"
-      },
-      {
-        "id": 7,
-        "name": "java",
-        "logoComponent": "FaJava"
-      },
-      {
-        "id": 8,
-        "name": "git",
-        "logoComponent": "BsGit"
-      },
-      {
-        "id": 9,
-        "name": "Jupyter",
-        "logoComponent": "SiJupyter"
-      },
-      {
-        "id": 10,
-        "name": "powerShell",
-        "logoComponent": "SiPowershell"
-      },
-      {
-        "id": 11,
-        "name": "linux",
-        "logoComponent": "FaLinux"
-      },
-      {
-        "id": 12,
-        "name": "AWS",
-        "logoComponent": "BiLogoAws"
-      },
-      {
-        "id": 13,
-        "name": "docker",
-        "logoComponent": "FaDocker"
-      },
-      {
-        "id": 14,
-        "name": "kubernetes",
-        "logoComponent": "SiKubernetes"
-      },
-      {
-        "id": 15,
-        "name": "bash",
-        "logoComponent": "SiGnubash"
-      },
-      {
-        "id": 16,
-        "name": "zabbix",
-        "logoComponent": "TbHeartRateMonitor"
-      },
-      {
-        "id": 17,
-        "name": "jenkins",
-        "logoComponent": "FaJenkins"
-      },
-      {
-        "id": 29,
-        "name": "TeamCity",
-        "logoComponent": "SiTeamcity"
-      },
-      {
-        "id": 30,
-        "name": "go",
-        "logoComponent": "FaGolang"
-      },
-      {
-        "id": 18,
-        "name": "ansible",
-        "logoComponent": "SiAnsible"
-      },
-      {
-        "id": 19,
-        "name": "terraform",
-        "logoComponent": "SiTerraform"
-      },
-      {
-        "id": 20,
-        "name": "prometheus",
-        "logoComponent": "SiPrometheus"
-      },
-      {
-        "id": 21,
-        "name": "grafana",
-        "logoComponent": "SiGrafana"
-      },
-      {
-        "id": 22,
-        "name": "NGINX",
-        "logoComponent": "DiNginx"
-      },
-      {
-        "id": 23,
-        "name": "postgres",
-        "logoComponent": "BiLogoPostgresql"
-      },
-      {
-        "id": 24,
-        "name": "Jira",
-        "logoComponent": "SiJira"
-      },
-      {
-        "id": 25,
-        "name": "Bitbucket",
-        "logoComponent": "DiBitbucket"
-      },
-      {
-        "id": 26,
-        "name": "github",
-        "logoComponent": "FaGithub"
-      },
-      {
-        "id": 27,
-        "name": "github actions",
-        "logoComponent": "SiGithubactions"
-      },
-      {
-        "id": 28,
-        "name": "flyway",
-        "logoComponent": "SiFlyway"
+        "name": "OS & Version Control",
+        "skills": [
+          {
+            "id": 11,
+            "name": "Linux",
+            "logoComponent": "FaLinux"
+          },
+          {
+            "id": 8,
+            "name": "Git",
+            "logoComponent": "BsGit"
+          },
+          {
+            "id": 24,
+            "name": "Jira",
+            "logoComponent": "SiJira"
+          },
+          {
+            "id": 25,
+            "name": "Bitbucket",
+            "logoComponent": "DiBitbucket"
+          },
+          {
+            "id": 26,
+            "name": "GitHub",
+            "logoComponent": "FaGithub"
+          },
+          {
+            "id": 27,
+            "name": "GitHub Actions",
+            "logoComponent": "SiGithubactions"
+          }
+        ]
       }
     ]
   }

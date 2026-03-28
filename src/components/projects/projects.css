@@ -1,4 +1,7 @@
 .projects-container {
-    @apply
-        text-white
+    @apply w-full min-h-[100dvh] py-20 flex flex-col items-center justify-center snap-start;
+}
+
+.project-items-container {
+    @apply w-full max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12;
 }
