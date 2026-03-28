@@ -11,11 +11,11 @@ import Footer from "./components/footer/footer";
 
 
 function App() {
-  const APP_VERSION  = "1.3";
+  const APP_VERSION = "2.0";
 
   return (
     <div className="App" id="home">
-      
+
       <NavBar />
       <Home />
       <Divider id='about-me' />
