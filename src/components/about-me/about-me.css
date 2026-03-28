@@ -3,7 +3,7 @@
 }
 
 .about-me-content{
-    @apply flex flex-col justify-center items-center mx-auto w-11/12 max-w-6xl bg-white/50 dark:bg-zinc-900/40 border border-zinc-200/50 dark:border-zinc-800 backdrop-blur-md rounded-3xl p-10 ssm:p-8 shadow-2xl;
+    @apply flex flex-col justify-center items-center mx-auto w-11/12 max-w-6xl bg-white/40 dark:bg-zinc-900/40 border border-zinc-200/50 dark:border-zinc-800/50 backdrop-blur-md rounded-3xl p-10 ssm:p-8 shadow-xl transition-all duration-500 hover:shadow-2xl hover:bg-white/50 dark:hover:bg-zinc-900/60 hover:-translate-y-1;
 }
 
 .about-me-content img {

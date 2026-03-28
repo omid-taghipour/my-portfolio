@@ -1,5 +1,5 @@
 .education-item {
-    @apply bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md border border-zinc-200/50 dark:border-zinc-800/50 shadow-sm transition-all duration-300 hover:bg-white/90 dark:hover:bg-zinc-900/60 hover:shadow-cyan-500/20 hover:border-cyan-500/30 dark:hover:border-cyan-500/30 hover:-translate-y-1 rounded-3xl flex flex-col text-zinc-900 dark:text-zinc-100 p-10 text-center justify-center items-center h-full;
+    @apply bg-white/40 dark:bg-zinc-900/40 backdrop-blur-md border border-zinc-200/50 dark:border-zinc-800/50 shadow-xl transition-all duration-500 hover:bg-white/50 dark:hover:bg-zinc-900/60 hover:shadow-2xl hover:shadow-[0_8px_25px_rgba(34,211,238,0.25)] dark:hover:shadow-[0_8px_25px_rgba(34,211,238,0.15)] hover:border-cyan-400/60 dark:hover:border-cyan-500/60 hover:-translate-y-1 rounded-3xl flex flex-col text-zinc-900 dark:text-zinc-100 p-10 text-center justify-center items-center h-full;
 }
 
 .education-item img {

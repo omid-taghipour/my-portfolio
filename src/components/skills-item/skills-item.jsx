@@ -2,7 +2,7 @@ import "./skills-item.css";
 
 function SkillsItem({ name, logo }) {
   return (
-    <div className="skills-item-wrapper">
+    <div className="skills-item-wrapper group">
       <div className="skills-item-box">
         <div className="skills-logo-container">{logo}</div>
       </div>

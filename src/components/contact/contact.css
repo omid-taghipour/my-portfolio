@@ -1,5 +1,5 @@
 .contact-form-container {
-    @apply text-zinc-900 dark:text-zinc-100 w-full bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md border-x-0 !border-y border-zinc-200/50 dark:border-zinc-800/50 flex flex-col justify-center min-h-[100dvh] snap-start shadow-2xl;
+    @apply text-zinc-900 dark:text-zinc-100 w-full flex flex-col justify-center min-h-[100dvh] snap-start py-20;
 }
 
 .contact-form-container h2 {
@@ -7,7 +7,7 @@
 }
 
 .contact-form {
-    @apply flex flex-col gap-6 justify-center items-center w-full max-w-4xl mx-auto text-center my-10 px-4;
+    @apply flex flex-col gap-6 justify-center items-center w-full max-w-4xl mx-auto text-center my-10 px-8 py-10 bg-white/40 dark:bg-zinc-900/40 backdrop-blur-md border border-zinc-200/50 dark:border-zinc-800/50 rounded-3xl shadow-xl transition-all duration-500 hover:shadow-2xl hover:bg-white/50 dark:hover:bg-zinc-900/60 hover:-translate-y-1;
 }
 
 .contact-form input, .contact-form textarea {
@@ -35,7 +35,16 @@
 }
 
 .social-media-items a {
-    @apply p-8 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-md border border-zinc-200/50 dark:border-zinc-800/50 transition-all duration-300 hover:bg-white/90 dark:hover:bg-zinc-900/60 hover:border-cyan-500/30 hover:shadow-cyan-500/20 hover:-translate-y-1 rounded-3xl ssm:text-lg text-zinc-500 dark:text-zinc-400 flex flex-col items-center justify-center min-w-[14rem];
+    @apply bg-white/80 dark:bg-zinc-800/60 backdrop-blur-md border border-white/50 dark:border-zinc-700/50 shadow-sm transition-all duration-300 hover:bg-white dark:hover:bg-zinc-900 hover:border-cyan-400/60 dark:hover:border-cyan-500/60 hover:shadow-[0_8px_25px_rgba(34,211,238,0.25)] dark:hover:shadow-[0_8px_25px_rgba(34,211,238,0.15)] hover:-translate-y-2 rounded-2xl flex flex-col items-center justify-center min-w-[14rem] p-8 ssm:text-lg text-zinc-500 dark:text-zinc-400 relative overflow-hidden z-10;
+}
+
+.social-media-items a::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-br from-cyan-400/20 to-blue-500/20 opacity-0 transition-opacity duration-300 -z-10;
+}
+
+.social-media-items a:hover::before {
+    @apply opacity-100;
 }
 
 .social-media-items a:hover .social-media-icon {

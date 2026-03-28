@@ -1,23 +1,32 @@
 .skills-container {
-    @apply text-zinc-900 dark:text-zinc-100 min-h-[100dvh] py-20 flex flex-col items-center justify-center snap-start;
+    @apply text-zinc-900 dark:text-zinc-100 min-h-[100dvh] py-20 flex flex-col items-center justify-center snap-start w-full;
 }
 
 .skill-logo {
-    @apply w-16 h-16 m-0 block text-center bg-transparent text-zinc-600 dark:text-zinc-400 transition-all duration-300 ease-out ssm:w-12 ssm:h-12;
+    @apply w-8 h-8 md:w-10 md:h-10 m-0 block text-center bg-transparent text-zinc-600 dark:text-zinc-400 transition-all duration-300 ease-out;
 }
 
 .skills-categories-container {
-    @apply flex flex-col gap-16 max-w-6xl w-full px-4 items-center mt-10;
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-7xl w-full px-4 md:px-8 mt-12;
 }
 
 .skills-category {
-    @apply w-full flex flex-col items-center;
+    @apply flex flex-col h-full bg-white/40 dark:bg-zinc-900/40 border border-zinc-200/50 dark:border-zinc-800/50 backdrop-blur-md rounded-3xl p-6 md:p-8 shadow-xl transition-all duration-500 hover:shadow-2xl hover:bg-white/50 dark:hover:bg-zinc-900/60 hover:-translate-y-1;
 }
 
 .skills-category-title {
-    @apply text-2xl md:text-3xl font-bold text-zinc-800 dark:text-zinc-200 mb-6 tracking-wide text-center;
+    @apply text-xl md:text-2xl font-bold text-zinc-800 dark:text-zinc-200 mb-6 tracking-wide text-left relative inline-block;
+}
+
+.skills-category-title::after {
+    content: '';
+    @apply absolute -bottom-2 left-0 w-12 h-1 bg-cyan-500 rounded-full transition-all duration-300;
+}
+
+.skills-category:hover .skills-category-title::after {
+    @apply w-20 bg-cyan-400;
 }
 
 .skills-items {
-    @apply flex flex-wrap w-full justify-center gap-6 p-8 bg-white/50 dark:bg-zinc-900/40 border border-zinc-200/50 dark:border-zinc-800 backdrop-blur-md rounded-3xl shadow-2xl;
+    @apply flex flex-wrap content-start gap-4 md:gap-5 w-full h-full;
 }
