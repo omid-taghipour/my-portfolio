@@ -11,7 +11,7 @@ const headerItems = [
     {id: 1, name: "about me", href: "#about-me"},
     {id: 2, name: "education", href: "#education"},
     {id: 3, name: "skills", href: "#skills"},
-    {id: 4, name: "projects", href: "#projects"},
+    // {id: 4, name: "projects", href: "#projects"},
     {id: 5, name: "contact", href: "#contact"}
 ]
 
