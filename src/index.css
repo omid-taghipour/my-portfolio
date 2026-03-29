@@ -26,7 +26,6 @@ body::before {
 
 html {
     scroll-behavior: smooth;
-    scroll-snap-type: y proximity;
     @apply scroll-pt-24 md:scroll-pt-28;
 }
 
