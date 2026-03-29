@@ -11,5 +11,5 @@
 }
 
 .about-me-content p {
-    @apply text-zinc-600 dark:text-zinc-400 text-center md:text-xl ssm:text-lg leading-relaxed max-w-4xl;
+    @apply text-zinc-600 dark:text-zinc-400 text-left md:text-center md:text-xl ssm:text-lg leading-relaxed max-w-4xl;
 }
