@@ -1,5 +1,5 @@
 .education-container {
-    @apply flex flex-col items-center justify-center w-full min-h-[100dvh] py-20 snap-start;
+    @apply w-full flex flex-col justify-center items-center bg-transparent py-24;
 }
 
 .education-items-container {

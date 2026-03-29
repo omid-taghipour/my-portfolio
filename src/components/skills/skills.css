@@ -1,5 +1,5 @@
 .skills-container {
-    @apply text-zinc-900 dark:text-zinc-100 min-h-[100dvh] py-20 flex flex-col items-center justify-center snap-start w-full;
+    @apply text-zinc-900 dark:text-zinc-100 py-20 flex flex-col items-center justify-center w-full;
 }
 
 .skill-logo {

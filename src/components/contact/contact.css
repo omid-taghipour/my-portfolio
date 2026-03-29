@@ -1,5 +1,5 @@
 .contact-form-container {
-    @apply text-zinc-900 dark:text-zinc-100 w-full flex flex-col justify-center min-h-[100dvh] snap-start py-20;
+    @apply text-zinc-900 dark:text-zinc-100 w-full flex flex-col justify-center py-24;
 }
 
 .contact-form-container h2 {
