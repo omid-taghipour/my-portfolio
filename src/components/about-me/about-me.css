@@ -1,5 +1,5 @@
 .about-me-container{
-    @apply text-zinc-900 dark:text-zinc-100 flex flex-col justify-center items-center w-full min-h-[100dvh] snap-start;
+    @apply text-zinc-900 dark:text-zinc-100 flex flex-col justify-center items-center w-full min-h-[100dvh] py-20 snap-start;
 }
 
 .about-me-content{

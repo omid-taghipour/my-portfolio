@@ -43,12 +43,12 @@ function NavBarComponent() {
                                 })
                             }
                         </div>
-                        <div className="hidden md:flex items-center">
+                        <div className="hidden lg:flex items-center">
                             <ThemeToggle />
                             <LanguageSwitcher />
                         </div>
                     </div>
-                    <div className="hamburger-menu flex items-center md:hidden">
+                    <div className="hamburger-menu flex items-center lg:hidden">
                         <ThemeToggle />
                         <LanguageSwitcher />
                         <button

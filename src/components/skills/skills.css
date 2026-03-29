@@ -11,7 +11,7 @@
 }
 
 .skills-category {
-    @apply flex flex-col h-full bg-white/40 dark:bg-zinc-900/40 border border-zinc-200/50 dark:border-zinc-800/50 backdrop-blur-md rounded-3xl p-6 md:p-8 shadow-xl transition-all duration-500 hover:shadow-2xl hover:bg-white/50 dark:hover:bg-zinc-900/60 hover:-translate-y-1;
+    @apply flex flex-col h-full bg-white/40 dark:bg-zinc-900/40 border border-zinc-200/50 dark:border-zinc-800/50 backdrop-blur-md rounded-3xl p-5 sm:p-6 md:p-8 shadow-xl transition-all duration-500 hover:shadow-2xl hover:bg-white/50 dark:hover:bg-zinc-900/60 hover:-translate-y-1 overflow-hidden sm:overflow-visible;
 }
 
 .skills-category-title {
@@ -28,5 +28,5 @@
 }
 
 .skills-items {
-    @apply flex flex-wrap content-start gap-4 md:gap-5 w-full h-full;
+    @apply grid grid-cols-3 sm:grid-cols-4 md:flex md:flex-wrap place-items-center gap-3 md:gap-5 w-full h-full;
 }

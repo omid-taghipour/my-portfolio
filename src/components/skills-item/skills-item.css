@@ -1,9 +1,9 @@
 .skills-item-wrapper {
-    @apply flex flex-col items-center cursor-pointer;
+    @apply flex flex-col items-center justify-center cursor-pointer;
 }
 
 .skills-item-box {
-    @apply bg-white/80 dark:bg-zinc-800/60 backdrop-blur-md border border-white/50 dark:border-zinc-700/50 shadow-sm transition-all duration-300 rounded-2xl p-4 w-16 h-16 md:w-20 md:h-20 flex justify-center items-center text-zinc-700 dark:text-zinc-300 relative overflow-hidden z-10;
+    @apply bg-white/80 dark:bg-zinc-800/60 backdrop-blur-md border border-white/50 dark:border-zinc-700/50 shadow-sm transition-all duration-300 rounded-2xl p-3 w-14 h-14 md:w-20 md:h-20 flex justify-center items-center text-zinc-700 dark:text-zinc-300 relative overflow-hidden z-10;
 }
 
 .skills-item-box::before {
